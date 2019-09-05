@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Ubah Kata Sandi Utama"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Anda dapat mengubah kata sandi utama Anda di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Anda dapat mengubah kata sandi utama Anda di brankas web bytegarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Info masuk dua langkah membuat akun Anda lebih aman dengan mengharuskan Anda memverifikasi info masuk Anda dengan peranti lain seperti kode keamanan, aplikasi autentikasi, SMK, panggilan telepon, atau email. Info masuk dua langkah dapat diaktifkan di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Info masuk dua langkah membuat akun Anda lebih aman dengan mengharuskan Anda memverifikasi info masuk Anda dengan peranti lain seperti kode keamanan, aplikasi autentikasi, SMK, panggilan telepon, atau email. Info masuk dua langkah dapat diaktifkan di brankas web bytegarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "editedFolder": {
     "message": "Folder yang di Edit"
@@ -682,7 +682,7 @@
     "message": "Kelola Keanggotaan"
   },
   "premiumManageAlert": {
-    "message": "Anda dapat mengelola keanggotaan Anda di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Anda dapat mengelola keanggotaan Anda di brankas web bytegarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "premiumRefresh": {
     "message": "Segarkan Keanggotaan"
@@ -715,7 +715,7 @@
     "message": "Beli Keanggotaan Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Anda dapat membeli keanggotaan premium di brankas web bitwarden.com. Anda ingin mengunjungi situs web sekarang?"
+    "message": "Anda dapat membeli keanggotaan premium di brankas web bytegarden.com. Anda ingin mengunjungi situs web sekarang?"
   },
   "premiumCurrentMember": {
     "message": "Anda adalah anggota premium!"
@@ -838,7 +838,7 @@
     "message": "Lingkungan sel-host"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Menetapkan URL dasar instalasi bitwarden host lokal Anda."
+    "message": "Menetapkan URL dasar instalasi bytegarden host lokal Anda."
   },
   "customEnvironment": {
     "message": "Lingkungan custom"

@@ -26,7 +26,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, WKScriptMe
         let url = URL(string: "\(html.absoluteString)?appVersion=\(version!)")
         webViewConfig.preferences.setValue(true, forKey: "allowFileAccessFromFileURLs")
         webViewConfig.preferences.setValue(true, forKey: "developerExtrasEnabled")
-        webViewConfig.userContentController.add(self, name: "bitwardenApp")
+        webViewConfig.userContentController.add(self, name: "bytegardenApp")
         webView = WKWebView(frame: CGRect(x: 0, y: 0, width: parentWidth, height: parentHeight),
                             configuration: webViewConfig)
         webView.navigationDelegate = self
@@ -52,7 +52,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, WKScriptMe
     }
 
     func userContentController(_: WKUserContentController, didReceive message: WKScriptMessage) {
-        if message.name != "bitwardenApp" {
+        if message.name != "bytegardenApp" {
             return
         }
         let messageBody = message.body as! String
@@ -84,7 +84,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, WKScriptMe
             let messagesUrl = bundleURL.appendingPathComponent("app/_locales/\(language)/messages.json")
             do {
                 let json = try String(contentsOf: messagesUrl, encoding: .utf8)
-                webView.evaluateJavaScript("window.bitwardenLocaleStrings = \(json);", completionHandler: nil)
+                webView.evaluateJavaScript("window.bytegardenLocaleStrings = \(json);", completionHandler: nil)
             } catch {}
             replyMessage(message: m!)
         } else if command == "tabs_query" {
@@ -127,7 +127,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, WKScriptMe
                         tabIndex = tabIndex + 1
                     }
                     theTab?.getActivePage { activePage in
-                        activePage?.dispatchMessageToScript(withName: "bitwarden", userInfo: ["msg": tabMsg!.obj])
+                        activePage?.dispatchMessageToScript(withName: "bytegarden", userInfo: ["msg": tabMsg!.obj])
                     }
                 }
             }
@@ -211,7 +211,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, WKScriptMe
             return
         }
         let json = (jsonSerialize(obj: message) ?? "null")
-        webView.evaluateJavaScript("window.bitwardenSafariAppMessageReceiver(\(json));", completionHandler: nil)
+        webView.evaluateJavaScript("window.bytegardenSafariAppMessageReceiver(\(json));", completionHandler: nil)
     }
 }
 

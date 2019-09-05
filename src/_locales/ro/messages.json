@@ -185,7 +185,7 @@
     "message": "Generează automat parole puternice, unice pentru datele de conectare."
   },
   "bitWebVault": {
-    "message": "Seif bitwarden Web"
+    "message": "Seif bytegarden Web"
   },
   "importItems": {
     "message": "Import elemente"
@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Schimbare parolă principală"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Puteţi modifica parola principală pe site-ul web bitwarden.com. Doriţi să vizitaţi site-ul acum?"
+    "message": "Puteţi modifica parola principală pe site-ul web bytegarden.com. Doriţi să vizitaţi site-ul acum?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Autentificarea în două etape face ca contul dvs. să fie mai sigur, solicitând să introduceți un cod de securitate dintr-o aplicație de autentificare ori de câte ori vă conectați. Autentificarea în două etape poate fi activată în seiful web bitwarden.com. Doriți să vizitați site-ul acum?"
+    "message": "Autentificarea în două etape face ca contul dvs. să fie mai sigur, solicitând să introduceți un cod de securitate dintr-o aplicație de autentificare ori de câte ori vă conectați. Autentificarea în două etape poate fi activată în seiful web bytegarden.com. Doriți să vizitați site-ul acum?"
   },
   "editedFolder": {
     "message": "Dosar editat"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy\/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Ar trebui ca bitwarden să memoreze această parolă pentru dvs.?"
+    "message": "Ar trebui ca bytegarden să memoreze această parolă pentru dvs.?"
   },
   "notificationAddSave": {
     "message": "Da, salvează acum"
@@ -613,7 +613,7 @@
     "message": "Partajare seif"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden vă permite să vă împărtășiți seiful cu alte persoane utilizând un cont pentru organizații. Doriți să vizitați site-ul bitwarden.com pentru a afla mai multe?"
+    "message": "Bitwarden vă permite să vă împărtășiți seiful cu alte persoane utilizând un cont pentru organizații. Doriți să vizitați site-ul bytegarden.com pentru a afla mai multe?"
   },
   "shareItem": {
     "message": "Distribuie element"
@@ -682,7 +682,7 @@
     "message": "Gestionare statut"
   },
   "premiumManageAlert": {
-    "message": "Puteţi gestiona apartenenţa pe site-ul web bitwarden.com. Doriţi să vizitaţi site-ul acum?"
+    "message": "Puteţi gestiona apartenenţa pe site-ul web bytegarden.com. Doriţi să vizitaţi site-ul acum?"
   },
   "premiumRefresh": {
     "message": "Actualizare statut"
@@ -715,13 +715,13 @@
     "message": "Achiziționați un abonament Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Puteţi procura un abonament premium pe site-ul web bitwarden.com. Doriţi să vizitaţi site-ul acum?"
+    "message": "Puteţi procura un abonament premium pe site-ul web bytegarden.com. Doriţi să vizitaţi site-ul acum?"
   },
   "premiumCurrentMember": {
     "message": "Sunteţi un membru premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Vă mulțumim pentru susținerea bitwarden."
+    "message": "Vă mulțumim pentru susținerea bytegarden."
   },
   "premiumPrice": {
     "message": "Totul pentru doar %price% \/ an!",
@@ -838,7 +838,7 @@
     "message": "Mediu de găzduire personal"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specificați URL-ul implementări locale, personale a bitwarden."
+    "message": "Specificați URL-ul implementări locale, personale a bytegarden."
   },
   "customEnvironment": {
     "message": "Mediu personalizat"
@@ -865,7 +865,7 @@
     "message": "URL server de pictograme"
   },
   "environmentSaved": {
-    "message": "URL-urile mediului bitwarden au fost salvate."
+    "message": "URL-urile mediului bytegarden au fost salvate."
   },
   "enableAutoFillOnPageLoad": {
     "message": "Activare completare automată la încărcarea paginii"

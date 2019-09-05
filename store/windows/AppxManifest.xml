@@ -6,7 +6,7 @@
   IgnorableNamespaces="uap3">
 
   <Identity
-    Name="8bitSolutionsLLC.bitwarden-FreePasswordManager"
+    Name="8bitSolutionsLLC.bytegarden-FreePasswordManager"
     Publisher="CN=14D52771-DE3C-4886-B8BF-825BA7690418"
     Version="0.0.0.0"/>
 

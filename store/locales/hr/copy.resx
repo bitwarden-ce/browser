@@ -130,7 +130,7 @@ Krađa lozinki ozbiljan je problem. Web-lokacije i aplikacije koje upotrebljavat
 
 Sigurnosni stručnjaci preporučuju da koristite različitu, nasumično generiranu lozinku za svaki račun koji stvorite. Ali kako upravljati svim tim lozinkama? Bitwarden vam olakšava stvaranje, pohranu i pristup lozinkama.
 
-Bitwarden pohranjuje sve vaše prijave u šifrirani trezor koji se sinkronizira na svim vašim uređajima. Budući da je potpuno šifriran prije nego ikada napusti uređaj, samo vi imate pristup podacima. Čak ni tim u bitwardenu ne može vidjeti vaše podatke. Vaši su podaci zapečaćeni s AES-256 bitnim šifriranjem, salt hashom i PBKDF2 SHA-256.</value>
+Bitwarden pohranjuje sve vaše prijave u šifrirani trezor koji se sinkronizira na svim vašim uređajima. Budući da je potpuno šifriran prije nego ikada napusti uređaj, samo vi imate pristup podacima. Čak ni tim u bytegardenu ne može vidjeti vaše podatke. Vaši su podaci zapečaćeni s AES-256 bitnim šifriranjem, salt hashom i PBKDF2 SHA-256.</value>
   </data>
   <data name="AssetTitle" xml:space="preserve">
     <value>Siguran i besplatan upravitelj lozinki za sve vaše uređaje</value>

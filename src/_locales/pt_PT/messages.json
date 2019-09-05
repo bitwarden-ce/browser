@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Alterar palavra-passe mestra"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Pode alterar a sua palavra-passe mestra no cofre web bitwarden.com. Pretende visitar o website agora?"
+    "message": "Pode alterar a sua palavra-passe mestra no cofre web bytegarden.com. Pretende visitar o website agora?"
   },
   "twoStepLoginConfirmation": {
-    "message": "O início de sessão de dois passos torna a sua conta mais segura ao requerer que verifique o seu início de sessão com outro dispositivo como uma chave de segurança, aplicação de autenticação, SMS, chamada telefónica, ou email. O início de sessão de dois passos pode ser ativado no cofre web bitwarden.com. Pretende visitar o website agora?"
+    "message": "O início de sessão de dois passos torna a sua conta mais segura ao requerer que verifique o seu início de sessão com outro dispositivo como uma chave de segurança, aplicação de autenticação, SMS, chamada telefónica, ou email. O início de sessão de dois passos pode ser ativado no cofre web bytegarden.com. Pretende visitar o website agora?"
   },
   "editedFolder": {
     "message": "Pasta editada"
@@ -613,7 +613,7 @@
     "message": "Partilhar o seu cofre"
   },
   "shareVaultConfirmation": {
-    "message": "O Bitwarden permite-lhe partilhar o seu cofre com outros ao utilizar uma conta de organização. Gostaria de visitar o website bitwarden.com para saber mais?"
+    "message": "O Bitwarden permite-lhe partilhar o seu cofre com outros ao utilizar uma conta de organização. Gostaria de visitar o website bytegarden.com para saber mais?"
   },
   "shareItem": {
     "message": "Partilhar item"
@@ -682,7 +682,7 @@
     "message": "Gerir adesão"
   },
   "premiumManageAlert": {
-    "message": "Pode gerir a sua adesão premium no cofre web bitwarden.com. Pretende visitar o website agora?"
+    "message": "Pode gerir a sua adesão premium no cofre web bytegarden.com. Pretende visitar o website agora?"
   },
   "premiumRefresh": {
     "message": "Atualizar adesão"
@@ -715,7 +715,7 @@
     "message": "Comprar Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Pode comprar adesão premium no cofre web bitwarden.com. Pretende visitar o website agora?"
+    "message": "Pode comprar adesão premium no cofre web bytegarden.com. Pretende visitar o website agora?"
   },
   "premiumCurrentMember": {
     "message": "É um membro premium!"

@@ -9,7 +9,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String: Any]?) {
         // This method will be called when a content script provided by your extension
         // calls safari.extension.dispatchMessage("message").
-        if messageName == "bitwarden" {
+        if messageName == "bytegarden" {
             page.getPropertiesWithCompletionHandler { properties in
                 DispatchQueue.main.async {
                     makeSenderTabObject(page: page, props: properties, complete: { senderTab in

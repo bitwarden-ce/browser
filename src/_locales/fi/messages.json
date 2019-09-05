@@ -185,7 +185,7 @@
     "message": "Luo automaattisesti vahvoja, sivustokohtaisia salasanoja kirjautumisiasi varten."
   },
   "bitWebVault": {
-    "message": "bitwardenin verkkoholvi"
+    "message": "bytegardenin verkkoholvi"
   },
   "importItems": {
     "message": "Tuo kohteita"
@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Vaihda pääsalasana"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Voit vaihtaa pääsalasanasi bitwarden.com-verkkoholvissa. Haluatko käydä sivustolla nyt?"
+    "message": "Voit vaihtaa pääsalasanasi bytegarden.com-verkkoholvissa. Haluatko käydä sivustolla nyt?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Kaksivaiheinen kirjautuminen tekee tilistäsi turvallisemman edellyttämällä sinulta kirjautumisvahvistuksen todennuslaitteen, ‑sovelluksen, tekstiviestin, puhelun tai sähköpostin avulla. Voit ottaa kaksivaiheisen kirjautumisen käyttöön bitwarden.com‑verkkoholvissa. Haluatko käydä sivustolla nyt?"
+    "message": "Kaksivaiheinen kirjautuminen tekee tilistäsi turvallisemman edellyttämällä sinulta kirjautumisvahvistuksen todennuslaitteen, ‑sovelluksen, tekstiviestin, puhelun tai sähköpostin avulla. Voit ottaa kaksivaiheisen kirjautumisen käyttöön bytegarden.com‑verkkoholvissa. Haluatko käydä sivustolla nyt?"
   },
   "editedFolder": {
     "message": "Kansiota muokattu"
@@ -613,7 +613,7 @@
     "message": "Jaa holvisi"
   },
   "shareVaultConfirmation": {
-    "message": "Voit jakaa Bitwardenilla holvisi sisällön muiden kanssa käyttämällä organisaatiotiliä. Haluatko käydä bitwarden.com-sivustolla lukemassa lisää?"
+    "message": "Voit jakaa Bitwardenilla holvisi sisällön muiden kanssa käyttämällä organisaatiotiliä. Haluatko käydä bytegarden.com-sivustolla lukemassa lisää?"
   },
   "shareItem": {
     "message": "Share Item"
@@ -682,7 +682,7 @@
     "message": "Hallitse jäsenyyttä"
   },
   "premiumManageAlert": {
-    "message": "Voit hallita jäsenyyttäsi bitwarden.com-verkkoholvissa. Haluatko käydä sivustolla nyt?"
+    "message": "Voit hallita jäsenyyttäsi bytegarden.com-verkkoholvissa. Haluatko käydä sivustolla nyt?"
   },
   "premiumRefresh": {
     "message": "Päivitä jäsenyys"
@@ -715,7 +715,7 @@
     "message": "Osta premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Voit ostaa premium-jäsenyyden bitwarden.com-verkkoholvissa. Haluatko käydä sivustolla nyt?"
+    "message": "Voit ostaa premium-jäsenyyden bytegarden.com-verkkoholvissa. Haluatko käydä sivustolla nyt?"
   },
   "premiumCurrentMember": {
     "message": "Olet premium-jäsen!"
@@ -838,7 +838,7 @@
     "message": "Itse ylläpidetty ohjelmistoympäristö"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Syötä omalla palvelimella ylläpitämäsi bitwarden-asennuksen kanta-URL."
+    "message": "Syötä omalla palvelimella ylläpitämäsi bytegarden-asennuksen kanta-URL."
   },
   "customEnvironment": {
     "message": "Mukautettu ohjelmistoympäristö"

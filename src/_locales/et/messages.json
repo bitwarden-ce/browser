@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Muuda ülemparooli"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Saad oma ülemparooli muuta bitwarden.com veebihoidlas. Soovid seda kohe teha?"
+    "message": "Saad oma ülemparooli muuta bytegarden.com veebihoidlas. Soovid seda kohe teha?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Kaheastmeline kinnitamine aitab konto turvalisust tõsta. Lisaks paroolile pead kontole ligipääsemiseks kinnitama sisselogimise päringu SMS-ga, telefonikõnega, autentimise rakendusega või e-postiga. Kaheastmelist kinnitust saab sisse lülitada bitwarden.com veebihoidlas. Soovid seda kohe avada?"
+    "message": "Kaheastmeline kinnitamine aitab konto turvalisust tõsta. Lisaks paroolile pead kontole ligipääsemiseks kinnitama sisselogimise päringu SMS-ga, telefonikõnega, autentimise rakendusega või e-postiga. Kaheastmelist kinnitust saab sisse lülitada bytegarden.com veebihoidlas. Soovid seda kohe avada?"
   },
   "editedFolder": {
     "message": "Kaust muudetud"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy\/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Kas bitwarden peaks seda parooli meeles pidama?"
+    "message": "Kas bytegarden peaks seda parooli meeles pidama?"
   },
   "notificationAddSave": {
     "message": "Jah, salvesta see"
@@ -613,7 +613,7 @@
     "message": "Jaga oma hoidlat"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwardeniga saad oma hoidlat teistega jagada, kasutades selleks organisatsiooni kontot. Kas soovid selle kohta lisateavet ja avada bitwarden.com veebilehe?"
+    "message": "Bitwardeniga saad oma hoidlat teistega jagada, kasutades selleks organisatsiooni kontot. Kas soovid selle kohta lisateavet ja avada bytegarden.com veebilehe?"
   },
   "shareItem": {
     "message": "Jaga kirjet"
@@ -682,7 +682,7 @@
     "message": "Halda Premium versiooni"
   },
   "premiumManageAlert": {
-    "message": "Saad Premium versiooni hallata bitwarden.com veebihoidlas. Soovid seda kohe teha?"
+    "message": "Saad Premium versiooni hallata bytegarden.com veebihoidlas. Soovid seda kohe teha?"
   },
   "premiumRefresh": {
     "message": "Uuenda staatust"
@@ -715,7 +715,7 @@
     "message": "Osta Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Bitwardeni premium versiooni saab osta bitwarden.com veebihoidlas. Avan veebihoidla?"
+    "message": "Bitwardeni premium versiooni saab osta bytegarden.com veebihoidlas. Avan veebihoidla?"
   },
   "premiumCurrentMember": {
     "message": "Oled premium kasutaja!"

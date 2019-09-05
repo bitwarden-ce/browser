@@ -185,7 +185,7 @@
     "message": "自动生成安全可靠唯一的登录密码。"
   },
   "bitWebVault": {
-    "message": "bitwarden 网页版"
+    "message": "bytegarden 网页版"
   },
   "importItems": {
     "message": "导入项目"
@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "修改主密码"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "您可以在 bitwarden.com 网页版修改您的主密码。现在为您跳转吗？"
+    "message": "您可以在 bytegarden.com 网页版修改您的主密码。现在为您跳转吗？"
   },
   "twoStepLoginConfirmation": {
-    "message": "两步登录使您在登录时需要输入一个从认证应用获取的安全码，这能使您的账户更加安全。两步登录可以在 bitwarden.com 网页版启用。现在要访问吗？"
+    "message": "两步登录使您在登录时需要输入一个从认证应用获取的安全码，这能使您的账户更加安全。两步登录可以在 bytegarden.com 网页版启用。现在要访问吗？"
   },
   "editedFolder": {
     "message": "已编辑的文件夹"
@@ -613,7 +613,7 @@
     "message": "分享你的密码库"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden 允许您使用组织帐户与他人共享您的存储库。您想访问 bitwarden.com 网站以了解更多内容吗？"
+    "message": "Bitwarden 允许您使用组织帐户与他人共享您的存储库。您想访问 bytegarden.com 网站以了解更多内容吗？"
   },
   "shareItem": {
     "message": "共享项目"
@@ -682,7 +682,7 @@
     "message": "管理会员资格"
   },
   "premiumManageAlert": {
-    "message": "您可以在 bitwarden.com 网页版管理您的会员资格。现在要访问吗？"
+    "message": "您可以在 bytegarden.com 网页版管理您的会员资格。现在要访问吗？"
   },
   "premiumRefresh": {
     "message": "刷新会员资格"
@@ -715,7 +715,7 @@
     "message": "购买高级版"
   },
   "premiumPurchaseAlert": {
-    "message": "您可以在 bitwarden.com 网页版购买高级会员。现在要访问吗？"
+    "message": "您可以在 bytegarden.com 网页版购买高级会员。现在要访问吗？"
   },
   "premiumCurrentMember": {
     "message": "您是一名高级会员！"

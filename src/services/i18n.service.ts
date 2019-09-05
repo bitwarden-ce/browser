@@ -8,7 +8,7 @@ export default class I18nService extends BaseI18nService {
         super(systemLanguage, BrowserApi.isSafariApi ? 'safari' : null, async (formattedLocale: string) => {
             if (BrowserApi.isSafariApi) {
                 await SafariApp.sendMessageToApp('getLocaleStrings', formattedLocale);
-                return (window as any).bitwardenLocaleStrings;
+                return (window as any).bytegardenLocaleStrings;
             } else {
                 // Deprecated
                 const file = await fetch(this.localesDirectory + formattedLocale + '/messages.json');

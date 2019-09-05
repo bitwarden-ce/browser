@@ -56,7 +56,7 @@ import { PopupUtilsService } from './popup-utils.service';
 function getBgService<T>(service: string) {
     return (): T => {
         const page = BrowserApi.getBackgroundPage();
-        return page ? page.bitwardenMain[service] as T : null;
+        return page ? page.bytegardenMain[service] as T : null;
     };
 }
 
@@ -96,10 +96,10 @@ export function initFactory(i18nService: I18nService, storageService: StorageSer
 
             const analytics = new Analytics(window, () => BrowserApi.gaFilter(), null, null, null, () => {
                 const bgPage = BrowserApi.getBackgroundPage();
-                if (bgPage == null || bgPage.bitwardenMain == null) {
+                if (bgPage == null || bgPage.bytegardenMain == null) {
                     throw new Error('Cannot resolve background page main.');
                 }
-                return bgPage.bitwardenMain;
+                return bgPage.bytegardenMain;
             });
         }
     };

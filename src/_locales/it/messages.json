@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Cambia Password Principale"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Puoi cambiare la tua password principale sulla cassaforte online di bitwarden.com. Vuoi visitare ora il sito?"
+    "message": "Puoi cambiare la tua password principale sulla cassaforte online di bytegarden.com. Vuoi visitare ora il sito?"
   },
   "twoStepLoginConfirmation": {
-    "message": "L'autenticazione in due passaggi rende il tuo account più sicuro richiedendo di verificare il login con un altro dispositivo come una security key, app di autenticazione, SMS, telefonata o email. Può essere abilitata sulla cassaforte online di bitwarden.com. Vuoi visitare il sito ora?"
+    "message": "L'autenticazione in due passaggi rende il tuo account più sicuro richiedendo di verificare il login con un altro dispositivo come una security key, app di autenticazione, SMS, telefonata o email. Può essere abilitata sulla cassaforte online di bytegarden.com. Vuoi visitare il sito ora?"
   },
   "editedFolder": {
     "message": "Cartelle Modificate"
@@ -567,7 +567,7 @@
     "message": "Disabilita Integrazione Menu Contestuale"
   },
   "disableContextMenuItemDesc": {
-    "message": "il menu contestuale di bitwarden fornisce l'accesso rapido ai login per la tab corrente."
+    "message": "il menu contestuale di bytegarden fornisce l'accesso rapido ai login per la tab corrente."
   },
   "defaultUriMatchDetection": {
     "message": "Rilevamento corrispondenza URI di default",
@@ -613,7 +613,7 @@
     "message": "Condividi La Tua Cassaforte"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden ti permette di condividere la tua cassaforte con altri usando un account societario. Vuoi visitare il sito bitwarden.com per saperne di più?"
+    "message": "Bitwarden ti permette di condividere la tua cassaforte con altri usando un account societario. Vuoi visitare il sito bytegarden.com per saperne di più?"
   },
   "shareItem": {
     "message": "Condividi elemento"
@@ -682,7 +682,7 @@
     "message": "Gestisci Abbonamento"
   },
   "premiumManageAlert": {
-    "message": "Puoi gestire il tuo abbonamento premium online su bitwarden.com. Vuoi visitare ora il sito?"
+    "message": "Puoi gestire il tuo abbonamento premium online su bytegarden.com. Vuoi visitare ora il sito?"
   },
   "premiumRefresh": {
     "message": "Aggiorna abbonamento"
@@ -715,7 +715,7 @@
     "message": "Acquista Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Puoi acquistare il tuo abbonamento premium online su bitwarden.com. Vuoi visitare ora il sito?"
+    "message": "Puoi acquistare il tuo abbonamento premium online su bytegarden.com. Vuoi visitare ora il sito?"
   },
   "premiumCurrentMember": {
     "message": "Sei un membro premium!"
@@ -838,7 +838,7 @@
     "message": "Ambiente Self-Hosted"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specifica l'URL principale della tua installazione bitwarden self-hosted."
+    "message": "Specifica l'URL principale della tua installazione bytegarden self-hosted."
   },
   "customEnvironment": {
     "message": "Ambiente Personalizzato"

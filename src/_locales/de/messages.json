@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -613,7 +613,7 @@
     "message": "Teile deinen Tresor"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden erlaubt es dir deinen Tresor mit anderen zu teilen wenn du einen Organisations Account hast. Möchtest du bitwarden.com besuchen um mehr zu erfahren?"
+    "message": "Bitwarden erlaubt es dir deinen Tresor mit anderen zu teilen wenn du einen Organisations Account hast. Möchtest du bytegarden.com besuchen um mehr zu erfahren?"
   },
   "shareItem": {
     "message": "Eintrag teilen"

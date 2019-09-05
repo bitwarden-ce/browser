@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Hoofdwachtwoord wijzigen"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Je kunt je hoofdwachtwoord veranderen in de webkluis op bitwarden.com. Wil je de website nu bezoeken?"
+    "message": "Je kunt je hoofdwachtwoord veranderen in de webkluis op bytegarden.com. Wil je de website nu bezoeken?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Tweestapsverificatie maakt uw account veiliger door u bij iedere inlogpoging een code te vragen van een authenticatie-app. Tweestapsverificatie kunt u inschakelen in de webkluis op bitwarden.com. Wilt u de website nu bezoeken?"
+    "message": "Tweestapsverificatie maakt uw account veiliger door u bij iedere inlogpoging een code te vragen van een authenticatie-app. Tweestapsverificatie kunt u inschakelen in de webkluis op bytegarden.com. Wilt u de website nu bezoeken?"
   },
   "editedFolder": {
     "message": "Map is bewerkt"
@@ -613,7 +613,7 @@
     "message": "Uw kluis delen"
   },
   "shareVaultConfirmation": {
-    "message": "Met een organisatie-account kunt u een Bitwarden-kluis met anderen delen. Wilt u op de website bitwarden.com meer informatie lezen?"
+    "message": "Met een organisatie-account kunt u een Bitwarden-kluis met anderen delen. Wilt u op de website bytegarden.com meer informatie lezen?"
   },
   "shareItem": {
     "message": "Object delen"
@@ -682,7 +682,7 @@
     "message": "Lidmaatschap beheren"
   },
   "premiumManageAlert": {
-    "message": "U kunt uw lidmaatschap wijzigen in de webkluis op bitwarden.com. Wilt u de website nu bezoeken?"
+    "message": "U kunt uw lidmaatschap wijzigen in de webkluis op bytegarden.com. Wilt u de website nu bezoeken?"
   },
   "premiumRefresh": {
     "message": "Lidmaatschap vernieuwen"
@@ -715,7 +715,7 @@
     "message": "Premium kopen"
   },
   "premiumPurchaseAlert": {
-    "message": "U kunt een premium-lidmaatschap kopen via de bitwarden.com-webkluis. Wilt u de website nu bezoeken?"
+    "message": "U kunt een premium-lidmaatschap kopen via de bytegarden.com-webkluis. Wilt u de website nu bezoeken?"
   },
   "premiumCurrentMember": {
     "message": "U bent een Premium-lid!"

@@ -3,7 +3,7 @@
     "message": "Bitwarden"
   },
   "extName": {
-    "message": "bitwarden - Besplatni upravitelj lozinki",
+    "message": "bytegarden - Besplatni upravitelj lozinki",
     "description": "Extension name"
   },
   "extDesc": {
@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Promjena glavne lozinke"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Možete promijeniti svoju glavnu lozinku na internetskom trezoru bitwarden.com. Želite li sada posjetiti web stranicu?"
+    "message": "Možete promijeniti svoju glavnu lozinku na internetskom trezoru bytegarden.com. Želite li sada posjetiti web stranicu?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Prijava u dva koraka čini vaš račun sigurnijim tako što će zahtijevati da potvrdite prijavu putem drugog uređaja pomoću sigurnosnog koda, aplikacije autentifikatora, SMS porukom, pozivom ili adresom e-pošte. Prijava u dva koraka može se omogućiti na internetskom trezoru bitwarden.com. Želite li sada posjetiti web stranicu?"
+    "message": "Prijava u dva koraka čini vaš račun sigurnijim tako što će zahtijevati da potvrdite prijavu putem drugog uređaja pomoću sigurnosnog koda, aplikacije autentifikatora, SMS porukom, pozivom ili adresom e-pošte. Prijava u dva koraka može se omogućiti na internetskom trezoru bytegarden.com. Želite li sada posjetiti web stranicu?"
   },
   "editedFolder": {
     "message": "Uređena mapa"
@@ -613,7 +613,7 @@
     "message": "Podijelite trezor"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden omogućuje dijeljenje trezora s drugima pomoću računa organizacije. Želite li posjetiti web stranicu bitwarden.com da biste saznali više?"
+    "message": "Bitwarden omogućuje dijeljenje trezora s drugima pomoću računa organizacije. Želite li posjetiti web stranicu bytegarden.com da biste saznali više?"
   },
   "shareItem": {
     "message": "Podijeli stavku"
@@ -682,7 +682,7 @@
     "message": "Upravljaj članstvom"
   },
   "premiumManageAlert": {
-    "message": "Možete upravljati svojim članstvom na internetskom trezoru bitwarden.com. Želite li sada posjetiti web stranicu?"
+    "message": "Možete upravljati svojim članstvom na internetskom trezoru bytegarden.com. Želite li sada posjetiti web stranicu?"
   },
   "premiumRefresh": {
     "message": "Osvježi članstvo"
@@ -715,7 +715,7 @@
     "message": "Kupi Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Možete kupiti premium članstvo na internetskom trezoru bitwarden.com. Želite li sada posjetiti web stranicu?"
+    "message": "Možete kupiti premium članstvo na internetskom trezoru bytegarden.com. Želite li sada posjetiti web stranicu?"
   },
   "premiumCurrentMember": {
     "message": "Vi ste premium član!"

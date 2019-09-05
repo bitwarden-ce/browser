@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -613,7 +613,7 @@
     "message": "分享您的密碼庫"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden 允許您使用組織帳戶與他人共享您的密碼庫。您想造訪 bitwarden.com 網站以了解更多內容嗎？"
+    "message": "Bitwarden 允許您使用組織帳戶與他人共享您的密碼庫。您想造訪 bytegarden.com 網站以了解更多內容嗎？"
   },
   "shareItem": {
     "message": "分享項目"
@@ -1206,7 +1206,7 @@
     "message": "主密碼強度太弱"
   },
   "weakMasterPasswordDesc": {
-    "message": "您設定的主密碼很脆弱。您應該使用高強度的密碼 (或密碼短語) 來正確保護您的 bitwarden 帳戶。仍要使用這組主密碼嗎？"
+    "message": "您設定的主密碼很脆弱。您應該使用高強度的密碼 (或密碼短語) 來正確保護您的 bytegarden 帳戶。仍要使用這組主密碼嗎？"
   },
   "pin": {
     "message": "PIN",
