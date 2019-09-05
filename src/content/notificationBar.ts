@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    if (window.location.hostname.indexOf('vault.bitwarden.com') > -1) {
+    if (window.location.hostname.indexOf('vault.bytegarden.com') > -1) {
         return;
     }
 
@@ -24,22 +24,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let disabledChangedPasswordNotification = false;
 
     if (isSafari) {
-        if ((window as any).__bitwardenFrameId == null) {
-            (window as any).__bitwardenFrameId = Math.floor(Math.random() * Math.floor(99999999));
+        if ((window as any).__bytegardenFrameId == null) {
+            (window as any).__bytegardenFrameId = Math.floor(Math.random() * Math.floor(99999999));
         }
         if (inIframe) {
             return;
         }
 
         const responseCommand = 'notificationBarDataResponse';
-        safari.extension.dispatchMessage('bitwarden', {
+        safari.extension.dispatchMessage('bytegarden', {
             command: 'bgGetDataForTab',
             responseCommand: responseCommand,
-            bitwardenFrameId: (window as any).__bitwardenFrameId,
+            bytegardenFrameId: (window as any).__bytegardenFrameId,
         });
         safari.self.addEventListener('message', (msgEvent: any) => {
             const msg = JSON.parse(msgEvent.message.msg);
-            if (msg.bitwardenFrameId != null && (window as any).__bitwardenFrameId !== msg.bitwardenFrameId) {
+            if (msg.bytegardenFrameId != null && (window as any).__bytegardenFrameId !== msg.bytegardenFrameId) {
                 return;
             }
             if (msg.command === responseCommand && msg.data) {
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
                         const tagName = addedNode.tagName != null ? addedNode.tagName.toLowerCase() : null;
                         if (tagName != null && tagName === 'form' &&
-                            (addedNode.dataset == null || !addedNode.dataset.bitwardenWatching)) {
+                            (addedNode.dataset == null || !addedNode.dataset.bytegardenWatching)) {
                             doCollect = true;
                             break;
                         }
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                             continue;
                         }
 
-                        const forms = addedNode.querySelectorAll('form:not([data-bitwarden-watching])');
+                        const forms = addedNode.querySelectorAll('form:not([data-bytegarden-watching])');
                         if (forms != null && forms.length > 0) {
                             doCollect = true;
                             break;
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 formEl = document.getElementsByTagName('form')[index];
             }
 
-            if (formEl != null && formEl.dataset.bitwardenWatching !== '1') {
+            if (formEl != null && formEl.dataset.bytegardenWatching !== '1') {
                 const formDataObj: any = {
                     data: f,
                     formEl: formEl,
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 locateFields(formDataObj);
                 formData.push(formDataObj);
                 listen(formEl);
-                formEl.dataset.bitwardenWatching = '1';
+                formEl.dataset.bytegardenWatching = '1';
             }
         });
     }
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             form = e.target as HTMLFormElement;
         }
 
-        if (form == null || form.dataset.bitwardenProcessed === '1') {
+        if (form == null || form.dataset.bytegardenProcessed === '1') {
             return;
         }
 
@@ -463,9 +463,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     function processedForm(form: HTMLFormElement) {
-        form.dataset.bitwardenProcessed = '1';
+        form.dataset.bytegardenProcessed = '1';
         window.setTimeout(() => {
-            form.dataset.bitwardenProcessed = '0';
+            form.dataset.bytegardenProcessed = '0';
         }, 500);
     }
 
@@ -581,8 +581,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     function sendPlatformMessage(msg: any) {
         if (isSafari) {
-            msg.bitwardenFrameId = (window as any).__bitwardenFrameId;
-            safari.extension.dispatchMessage('bitwarden', msg);
+            msg.bytegardenFrameId = (window as any).__bytegardenFrameId;
+            safari.extension.dispatchMessage('bytegarden', msg);
         } else {
             chrome.runtime.sendMessage(msg);
         }

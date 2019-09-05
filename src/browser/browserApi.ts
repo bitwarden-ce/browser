@@ -83,8 +83,8 @@ export class BrowserApi {
                 });
             });
         } else if (BrowserApi.isSafariApi) {
-            if (options != null && options.frameId != null && obj.bitwardenFrameId == null) {
-                obj.bitwardenFrameId = options.frameId;
+            if (options != null && options.frameId != null && obj.bytegardenFrameId == null) {
+                obj.bytegardenFrameId = options.frameId;
             }
             await SafariApp.sendMessageToApp('tabs_message', JSON.stringify({
                 tab: tab,
@@ -108,7 +108,7 @@ export class BrowserApi {
         if (BrowserApi.isChromeApi) {
             return chrome.runtime.getManifest().version;
         } else if (BrowserApi.isSafariApi) {
-            return (window as any).bitwardenApplicationVersion;
+            return (window as any).bytegardenApplicationVersion;
         } else {
             return null;
         }
@@ -150,9 +150,9 @@ export class BrowserApi {
             });
         } else if (BrowserApi.isSafariApi) {
             SafariApp.addMessageListener(name, (message: any, sender: any, response: any) => {
-                if (message.bitwardenFrameId != null) {
+                if (message.bytegardenFrameId != null) {
                     if (sender != null && typeof (sender) === 'object' && sender.frameId == null) {
-                        sender.frameId = message.bitwardenFrameId;
+                        sender.frameId = message.bytegardenFrameId;
                     }
                 }
                 callback(message, sender, response);

@@ -83,7 +83,7 @@ export class AppComponent implements OnInit {
             window.onkeypress = () => this.recordActivity();
         });
 
-        (window as any).bitwardenPopupMainMessageListener = async (msg: any, sender: any, sendResponse: any) => {
+        (window as any).bytegardenPopupMainMessageListener = async (msg: any, sender: any, sendResponse: any) => {
             if (msg.command === 'doneLoggingOut') {
                 this.ngZone.run(async () => {
                     this.authService.logOut(() => {
@@ -137,7 +137,7 @@ export class AppComponent implements OnInit {
             }
         };
 
-        BrowserApi.messageListener('app.component', (window as any).bitwardenPopupMainMessageListener);
+        BrowserApi.messageListener('app.component', (window as any).bytegardenPopupMainMessageListener);
 
         this.router.events.subscribe((event) => {
             if (event instanceof NavigationEnd) {

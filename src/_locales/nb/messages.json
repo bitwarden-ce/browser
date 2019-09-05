@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Endre superpassordet"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Du kan endre superpassordet ditt på bitwarden.net-netthvelvet. Vil du besøke det nettstedet nå?"
+    "message": "Du kan endre superpassordet ditt på bytegarden.net-netthvelvet. Vil du besøke det nettstedet nå?"
   },
   "twoStepLoginConfirmation": {
-    "message": "2-trinnsinnlogging gjør kontoen din mer sikker, ved å kreve at du verifiserer din innlogging med en annen enhet, f.eks. en autentiseringsapp, SMS, E-post, telefonsamtale, eller sikkerhetsnøkkel. 2-trinnsinnlogging kan aktiveres på bitwarden.com-netthvelvet. Vil du besøke den nettsiden nå?"
+    "message": "2-trinnsinnlogging gjør kontoen din mer sikker, ved å kreve at du verifiserer din innlogging med en annen enhet, f.eks. en autentiseringsapp, SMS, E-post, telefonsamtale, eller sikkerhetsnøkkel. 2-trinnsinnlogging kan aktiveres på bytegarden.com-netthvelvet. Vil du besøke den nettsiden nå?"
   },
   "editedFolder": {
     "message": "Redigerte mappen"
@@ -613,7 +613,7 @@
     "message": "Del hvelvet ditt"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden lar deg dele hvelvet ditt med andre ved å bruke en organisasjonskonto. Vil du besøke bitwarden.com-nettstedet for å lære mer?"
+    "message": "Bitwarden lar deg dele hvelvet ditt med andre ved å bruke en organisasjonskonto. Vil du besøke bytegarden.com-nettstedet for å lære mer?"
   },
   "shareItem": {
     "message": "Del element"
@@ -682,7 +682,7 @@
     "message": "Behandle medlemsskapet"
   },
   "premiumManageAlert": {
-    "message": "Du kan behandle medlemskapet ditt på bitwarden.net-netthvelvet. Vil du besøke det nettstedet nå?"
+    "message": "Du kan behandle medlemskapet ditt på bytegarden.net-netthvelvet. Vil du besøke det nettstedet nå?"
   },
   "premiumRefresh": {
     "message": "Oppfrisk medlemsskapet"
@@ -715,7 +715,7 @@
     "message": "Kjøp Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Du kan kjøpe et Premium-medlemskap på bitwarden.net-netthvelvet. Vil du besøke det nettstedet nå?"
+    "message": "Du kan kjøpe et Premium-medlemskap på bytegarden.net-netthvelvet. Vil du besøke det nettstedet nå?"
   },
   "premiumCurrentMember": {
     "message": "Du er et Premium-medlem!"

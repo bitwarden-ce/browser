@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Canvia la contrasenya mestra"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Podeu canviar la contrasenya mestra a la caixa forta web de bitwarden.com. Voleu visitar el lloc web ara?"
+    "message": "Podeu canviar la contrasenya mestra a la caixa forta web de bytegarden.com. Voleu visitar el lloc web ara?"
   },
   "twoStepLoginConfirmation": {
-    "message": "L'inici de sessió en dues passes fa que el vostre compte siga més segur, ja que obliga a verificar el vostre inici de sessió amb un altre dispositiu, com ara una clau de seguretat, una aplicació autenticadora, un SMS, una trucada telefònica o un correu electrònic. Es pot habilitar l'inici de sessió en dues passes a la caixa forta web de bitwarden.com. Voleu visitar el lloc web ara?"
+    "message": "L'inici de sessió en dues passes fa que el vostre compte siga més segur, ja que obliga a verificar el vostre inici de sessió amb un altre dispositiu, com ara una clau de seguretat, una aplicació autenticadora, un SMS, una trucada telefònica o un correu electrònic. Es pot habilitar l'inici de sessió en dues passes a la caixa forta web de bytegarden.com. Voleu visitar el lloc web ara?"
   },
   "editedFolder": {
     "message": "Carpeta editada"
@@ -613,7 +613,7 @@
     "message": "Comparteix la vostra caixa forta"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden us permet compartir la vostra caixa forta amb altres usuaris mitjançant un compte d'organització. Voleu visitar el lloc web de bitwarden.com per obtenir més informació?"
+    "message": "Bitwarden us permet compartir la vostra caixa forta amb altres usuaris mitjançant un compte d'organització. Voleu visitar el lloc web de bytegarden.com per obtenir més informació?"
   },
   "shareItem": {
     "message": "Comparteix element"
@@ -682,7 +682,7 @@
     "message": "Administra la subscripció"
   },
   "premiumManageAlert": {
-    "message": "Podeu administrar la vostra subscripció a la caixa forta web de bitwarden.com. Voleu visitar el lloc web ara?"
+    "message": "Podeu administrar la vostra subscripció a la caixa forta web de bytegarden.com. Voleu visitar el lloc web ara?"
   },
   "premiumRefresh": {
     "message": "Actualitza la subscripció"
@@ -715,7 +715,7 @@
     "message": "Compra Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Podeu comprar la vostra subscripció a la caixa forta web de bitwarden.com. Voleu visitar el lloc web ara?"
+    "message": "Podeu comprar la vostra subscripció a la caixa forta web de bytegarden.com. Voleu visitar el lloc web ara?"
   },
   "premiumCurrentMember": {
     "message": "Sou un membre premium!"

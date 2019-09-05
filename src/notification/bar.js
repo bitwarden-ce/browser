@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function sendPlatformMessage(msg) {
         if (typeof safari !== 'undefined') {
-            safari.extension.dispatchMessage('bitwarden', msg);
+            safari.extension.dispatchMessage('bytegarden', msg);
         } else {
             chrome.runtime.sendMessage(msg);
         }

@@ -2,16 +2,16 @@ import { BrowserApi } from './browserApi';
 
 export class SafariApp {
     static init() {
-        if ((window as any).bitwardenSafariAppInited) {
+        if ((window as any).bytegardenSafariAppInited) {
             return;
         }
-        (window as any).bitwardenSafariAppInited = true;
+        (window as any).bytegardenSafariAppInited = true;
         if (BrowserApi.isSafariApi) {
-            (window as any).bitwardenSafariAppRequests =
+            (window as any).bytegardenSafariAppRequests =
                 new Map<string, { resolve: (value?: unknown) => void, timeoutDate: Date }>();
-            (window as any).bitwardenSafariAppMessageListeners =
+            (window as any).bytegardenSafariAppMessageListeners =
                 new Map<string, (message: any, sender: any, response: any) => void>();
-            (window as any).bitwardenSafariAppMessageReceiver = (message: any) => {
+            (window as any).bytegardenSafariAppMessageReceiver = (message: any) => {
                 SafariApp.receiveMessageFromApp(message);
             };
             setInterval(() => SafariApp.cleanupOldRequests(), 5 * 60000); // every 5 mins
@@ -25,7 +25,7 @@ export class SafariApp {
         return new Promise((resolve) => {
             const now = new Date();
             const messageId = now.getTime().toString() + '_' + Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
-            (window as any).webkit.messageHandlers.bitwardenApp.postMessage(JSON.stringify({
+            (window as any).webkit.messageHandlers.bytegardenApp.postMessage(JSON.stringify({
                 id: messageId,
                 command: command,
                 data: data,
@@ -34,7 +34,7 @@ export class SafariApp {
             if (resolveNow) {
                 resolve();
             } else {
-                (window as any).bitwardenSafariAppRequests.set(messageId, {
+                (window as any).bytegardenSafariAppRequests.set(messageId, {
                     resolve: resolve,
                     timeoutDate: new Date(now.getTime() + 5 * 60000),
                 });
@@ -43,11 +43,11 @@ export class SafariApp {
     }
 
     static addMessageListener(name: string, callback: (message: any, sender: any, response: any) => void) {
-        (window as any).bitwardenSafariAppMessageListeners.set(name, callback);
+        (window as any).bytegardenSafariAppMessageListeners.set(name, callback);
     }
 
     static sendMessageToListeners(message: any, sender: any, response: any) {
-        (window as any).bitwardenSafariAppMessageListeners.forEach((f: any) => f(message, sender, response));
+        (window as any).bytegardenSafariAppMessageListeners.forEach((f: any) => f(message, sender, response));
     }
 
     private static receiveMessageFromApp(message: any) {
@@ -62,16 +62,16 @@ export class SafariApp {
                     tab: message.senderTab,
                 }, null);
             } catch { }
-        } else if (message.id != null && (window as any).bitwardenSafariAppRequests.has(message.id)) {
-            const p = (window as any).bitwardenSafariAppRequests.get(message.id);
+        } else if (message.id != null && (window as any).bytegardenSafariAppRequests.has(message.id)) {
+            const p = (window as any).bytegardenSafariAppRequests.get(message.id);
             p.resolve(message.responseData);
-            (window as any).bitwardenSafariAppRequests.delete(message.id);
+            (window as any).bytegardenSafariAppRequests.delete(message.id);
         }
     }
 
     private static cleanupOldRequests() {
         const removeIds: string[] = [];
-        ((window as any).bitwardenSafariAppRequests as
+        ((window as any).bytegardenSafariAppRequests as
             Map<string, { resolve: (value?: unknown) => void, timeoutDate: Date }>)
             .forEach((v, key) => {
                 if (v.timeoutDate < new Date()) {
@@ -79,7 +79,7 @@ export class SafariApp {
                 }
             });
         removeIds.forEach((id) => {
-            (window as any).bitwardenSafariAppRequests.delete(id);
+            (window as any).bytegardenSafariAppRequests.delete(id);
         });
     }
 }

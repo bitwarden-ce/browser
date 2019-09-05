@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         return;
     }
 
-    if (isSafari && (window as any).__bitwardenFrameId == null) {
-        (window as any).__bitwardenFrameId = Math.floor(Math.random() * Math.floor(99999999));
+    if (isSafari && (window as any).__bytegardenFrameId == null) {
+        (window as any).__bytegardenFrameId = Math.floor(Math.random() * Math.floor(99999999));
     }
 
     Mousetrap.prototype.stopCallback = () => {
@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         };
 
         if (isSafari) {
-            msg.bitwardenFrameId = (window as any).__bitwardenFrameId;
-            safari.extension.dispatchMessage('bitwarden', msg);
+            msg.bytegardenFrameId = (window as any).__bytegardenFrameId;
+            safari.extension.dispatchMessage('bytegarden', msg);
         } else {
             chrome.runtime.sendMessage(msg);
         }

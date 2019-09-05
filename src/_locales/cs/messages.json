@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Změnit hlavní heslo"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Hlavní heslo si můžete změnit na webové stránce bitwarden.com. Chcete tuto stránku nyní otevřít?"
+    "message": "Hlavní heslo si můžete změnit na webové stránce bytegarden.com. Chcete tuto stránku nyní otevřít?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Dvoufázové přihlášení činí váš účet mnohem bezpečnějším díky nutnosti po každém úspěšném přihlášení zadat ověřovací kód získaný z aplikace, SMS, e-mailu nebo telefonního hovoru. Dvoufázové přihlášení lze aktivovat na webové stránce bitwarden.com. Chcete tuto stránku nyní otevřít?"
+    "message": "Dvoufázové přihlášení činí váš účet mnohem bezpečnějším díky nutnosti po každém úspěšném přihlášení zadat ověřovací kód získaný z aplikace, SMS, e-mailu nebo telefonního hovoru. Dvoufázové přihlášení lze aktivovat na webové stránce bytegarden.com. Chcete tuto stránku nyní otevřít?"
   },
   "editedFolder": {
     "message": "Složka byla upravena"
@@ -613,7 +613,7 @@
     "message": "Sdílet trezor"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden umožňuje sdílet váš trezor s ostatními prostřednictvím účtu organizace. Chcete přejít na bitwarden.com a dozvědět se víc?"
+    "message": "Bitwarden umožňuje sdílet váš trezor s ostatními prostřednictvím účtu organizace. Chcete přejít na bytegarden.com a dozvědět se víc?"
   },
   "shareItem": {
     "message": "Sdílet položku"
@@ -682,7 +682,7 @@
     "message": "Spravovat členství"
   },
   "premiumManageAlert": {
-    "message": "Své členství můžete spravovat na webové stránce bitwarden.com. Chcete tuto stránku nyní otevřít?"
+    "message": "Své členství můžete spravovat na webové stránce bytegarden.com. Chcete tuto stránku nyní otevřít?"
   },
   "premiumRefresh": {
     "message": "Obnovit členství"
@@ -715,7 +715,7 @@
     "message": "Zakoupit prémiové členství"
   },
   "premiumPurchaseAlert": {
-    "message": "Prémiové členství můžete zakoupit na webové stránce bitwarden.com. Chcete tuto stránku nyní otevřít?"
+    "message": "Prémiové členství můžete zakoupit na webové stránce bytegarden.com. Chcete tuto stránku nyní otevřít?"
   },
   "premiumCurrentMember": {
     "message": "Jste prémiovým členem!"

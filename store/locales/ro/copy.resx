@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Name" xml:space="preserve">
-    <value>bitwarden - Manager de parole gratuit</value>
+    <value>bytegarden - Manager de parole gratuit</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Un manager de parole sigur și gratuit pentru toate dispozitivele dvs.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>bitwarden este cea mai ușoară și cea mai sigură metodă de a stoca toate datele de autentificare și parolele dvs. păstrându-le în același timp sincronizate între toate dispozitivele dvs.
+    <value>bytegarden este cea mai ușoară și cea mai sigură metodă de a stoca toate datele de autentificare și parolele dvs. păstrându-le în același timp sincronizate între toate dispozitivele dvs.
 
 Furtul de parole este o problemă serioasă. Site-urile web și aplicațiile pe care le utilizați sunt atacate în fiecare zi. Se înregistrează încălcări ale securității și parolele dvs. sunt furate. Când reutilizați aceleași parole pe aplicații și site-uri web, hackerii pot accesa cu ușurință e-mailurile, conturile bancare și alte conturi importante.
 
-Experții în securitate vă recomandă să utilizați câte o parolă diferită, generată aleatoriu, pentru fiecare cont pe care îl utilizați. Dar cum veți gestiona toate aceste parole? bitwarden vă ușurează crearea, stocarea și accesarea parolelor dvs.
+Experții în securitate vă recomandă să utilizați câte o parolă diferită, generată aleatoriu, pentru fiecare cont pe care îl utilizați. Dar cum veți gestiona toate aceste parole? bytegarden vă ușurează crearea, stocarea și accesarea parolelor dvs.
 
-bitwarden stochează toate date dvs. de autentificare într-un seif criptat care se sincronizează pe toate dispozitivele dvs. Deoarece seiful este complet criptat înainte de a fi transmis prin internet, numai dvs. aveți acces la date. Nici măcar echipa bitwarden nu poate citi datele dvs. chiar dacă ar dori. Datele dvs. sunt codificate prin criptare AES-256, salted hashing și PBKDF2 SHA-256.
+bytegarden stochează toate date dvs. de autentificare într-un seif criptat care se sincronizează pe toate dispozitivele dvs. Deoarece seiful este complet criptat înainte de a fi transmis prin internet, numai dvs. aveți acces la date. Nici măcar echipa bytegarden nu poate citi datele dvs. chiar dacă ar dori. Datele dvs. sunt codificate prin criptare AES-256, salted hashing și PBKDF2 SHA-256.
 
-bitwarden este software 100% open source. Codul sursa pentru bitwarden este găzduit pe GitHub și toată lumea este liberă să îl revizuiască, să îl verifice și să contribuie la codul sursă bitwarden.</value>
+bytegarden este software 100% open source. Codul sursa pentru bytegarden este găzduit pe GitHub și toată lumea este liberă să îl revizuiască, să îl verifice și să contribuie la codul sursă bytegarden.</value>
   </data>
   <data name="AssetTitle" xml:space="preserve">
     <value>Un manager de parole sigur și gratuit, pentru toate dispozitivele dvs.</value>

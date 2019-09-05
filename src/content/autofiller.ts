@@ -7,18 +7,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
         navigator.userAgent.indexOf('Chrome') === -1;
 
     if (isSafari) {
-        if ((window as any).__bitwardenFrameId == null) {
-            (window as any).__bitwardenFrameId = Math.floor(Math.random() * Math.floor(99999999));
+        if ((window as any).__bytegardenFrameId == null) {
+            (window as any).__bytegardenFrameId = Math.floor(Math.random() * Math.floor(99999999));
         }
         const responseCommand = 'autofillerAutofillOnPageLoadEnabledResponse';
-        safari.extension.dispatchMessage('bitwarden', {
+        safari.extension.dispatchMessage('bytegarden', {
             command: 'bgGetDataForTab',
             responseCommand: responseCommand,
-            bitwardenFrameId: (window as any).__bitwardenFrameId,
+            bytegardenFrameId: (window as any).__bytegardenFrameId,
         });
         safari.self.addEventListener('message', (msgEvent: any) => {
             const msg = JSON.parse(msgEvent.message.msg);
-            if (msg.bitwardenFrameId != null && (window as any).__bitwardenFrameId !== msg.bitwardenFrameId) {
+            if (msg.bytegardenFrameId != null && (window as any).__bytegardenFrameId !== msg.bytegardenFrameId) {
                 return;
             }
             if (msg.command === responseCommand && msg.data.autofillEnabled === true) {
@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             };
 
             if (isSafari) {
-                msg.bitwardenFrameId = (window as any).__bitwardenFrameId;
-                safari.extension.dispatchMessage('bitwarden', msg);
+                msg.bytegardenFrameId = (window as any).__bytegardenFrameId;
+                safari.extension.dispatchMessage('bytegarden', msg);
             } else {
                 chrome.runtime.sendMessage(msg);
             }

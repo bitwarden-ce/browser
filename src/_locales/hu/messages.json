@@ -185,7 +185,7 @@
     "message": "Automatikusan létrehoz erős, egyedi jelszavakat a bejelentkezéseidhez."
   },
   "bitWebVault": {
-    "message": "Bitwarden webes széf"
+    "message": "bytegarden webes széf"
   },
   "importItems": {
     "message": "Elemek importálása"
@@ -314,7 +314,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -440,10 +440,10 @@
     "message": "Mesterjelszó módosítása"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Mesterjelszavadat a bitwarden.com webes széfén tudod megváltoztatni. Szeretnéd meglátogatni a most a weboldalt?"
+    "message": "Mesterjelszavadat a bytegarden.com webes széfén tudod megváltoztatni. Szeretnéd meglátogatni a most a weboldalt?"
   },
   "twoStepLoginConfirmation": {
-    "message": "A kétlépcsős bejelentkezés biztonságosabbá teszi a felhasználódat azáltal, hogy ellenőrizned kell a bejelentkezésedet egy másik készülékkel mint például biztonsági kulcs, hitelesítő alkalmazás, SMS, telefon hívás vagy e-mail. Kétlépcsős bejelentkezést a bitwarden.com webes széfén tudod megváltoztatni. Szeretnéd meglátogatni a most a weboldalt?"
+    "message": "A kétlépcsős bejelentkezés biztonságosabbá teszi a felhasználódat azáltal, hogy ellenőrizned kell a bejelentkezésedet egy másik készülékkel mint például biztonsági kulcs, hitelesítő alkalmazás, SMS, telefon hívás vagy e-mail. Kétlépcsős bejelentkezést a bytegarden.com webes széfén tudod megváltoztatni. Szeretnéd meglátogatni a most a weboldalt?"
   },
   "editedFolder": {
     "message": "A mappa módosításra került."
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "A Bitwarden megjegyezze ezt a jelszót?"
+    "message": "A Bytegarden megjegyezze ezt a jelszót?"
   },
   "notificationAddSave": {
     "message": "Igen, mentés most"
@@ -613,7 +613,7 @@
     "message": "Széf megosztása"
   },
   "shareVaultConfirmation": {
-    "message": "A Bitwarden lehetővé teszi egy szervezeti fiók használatával a fiók megosztását másokkal. Szeretnénk felkeresni a bitwarden.com webhelyet további információért?"
+    "message": "A Bytegarden lehetővé teszi egy szervezeti fiók használatával a fiók megosztását másokkal. Szeretnénk felkeresni a bitwarden.com webhelyet további információért?"
   },
   "shareItem": {
     "message": "Elem megosztása"
@@ -682,7 +682,7 @@
     "message": "Tagság kezelése"
   },
   "premiumManageAlert": {
-    "message": "Prémium tagságod a bitwarden.com webes széfén tudod kezelni. Szeretnéd meglátogatni a most a weboldalt?"
+    "message": "Prémium tagságod a bytegarden.com webes széfén tudod kezelni. Szeretnéd meglátogatni a most a weboldalt?"
   },
   "premiumRefresh": {
     "message": "Tagság frissítése"
@@ -715,13 +715,13 @@
     "message": "Prémium funkció megvásárlása"
   },
   "premiumPurchaseAlert": {
-    "message": "Prémium tagságot a bitwarden.com webes széfén tudsz venni. Szeretnéd meglátogatni a most a weboldalt?"
+    "message": "Prémium tagságot a bytegarden.com webes széfén tudsz venni. Szeretnéd meglátogatni a most a weboldalt?"
   },
   "premiumCurrentMember": {
     "message": "Te egy prémium tag vagy!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Köszönjük a Bitwarden támogatását."
+    "message": "Köszönjük a Bytegarden támogatását."
   },
   "premiumPrice": {
     "message": "Mindez csak $PRICE$ /év.",
@@ -838,7 +838,7 @@
     "message": "Saját üzemeltetésű környezet"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "A helyileg működtetett Bitwarden telepítés alap webcímének megadása."
+    "message": "A helyileg működtetett Bytegarden telepítés alap webcímének megadása."
   },
   "customEnvironment": {
     "message": "Egyéni környezet"

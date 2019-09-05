@@ -1,6 +1,16 @@
 {
-  "name": "bitwarden-browser",
+  "name": "bytegarden-browser",
   "version": "0.0.0",
+  "keywords": [
+    "bytegarden"
+  ],
+  "author": "ByteGarden contributors",
+  "homepage": "https://gitlab.kokakiwi.net/contrib/bytewarden/browser",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.kokakiwi.net/contrib/bytewarden/browser"
+  },
+  "license": "GPL-3.0",
   "scripts": {
     "sub:init": "git submodule update --init --recursive",
     "sub:update": "git submodule update --remote",

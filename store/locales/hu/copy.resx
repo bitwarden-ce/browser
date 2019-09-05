@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,13 +124,13 @@
     <value>Egy biztonságos és ingyenes jelszó kezelő az összes eszközödre</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>A Bitwarden a legkönnyebb és legbiztonságosabb módja a bejelentkezések és jelszavak tárolására miközben szinkronba tarja ezeket az összes eszközön.
+    <value>A Bytegarden a legkönnyebb és legbiztonságosabb módja a bejelentkezések és jelszavak tárolására miközben szinkronba tarja ezeket az összes eszközön.
 
 A jelszólopás egy komoly probléma. A használt webhelyek és alkalmazások támadás alatt állnak minden nap. Biztonsági jogsértések történnek és ellopják a jelszavakat. Amikor ugyanazt a jelszót használjuk több webhelyen, alkalmazáson, akkor a hackerek könnyen hozzáférhetnek az emailfiókhoz, banki fiókhoz és egyéb fontos bejelentkezéshez
 
-A biztonság szakértők azt javasolják, hogy használjunk különböző véletlenszerű jelszavakat minden bejelentkezésnél. De hogyan tartható észben az összes jelszó? A Bitwarden megkönnyíti a jelszavak létrehozását, tárolását és elérését.
+A biztonság szakértők azt javasolják, hogy használjunk különböző véletlenszerű jelszavakat minden bejelentkezésnél. De hogyan tartható észben az összes jelszó? A Bytegarden megkönnyíti a jelszavak létrehozását, tárolását és elérését.
 
-A Bitwarden egy titkosított széfben tárolja az összes bejelentkezés és szinkronizálja őket az összes eszközön. Mivel ezek az adatok teljesen titkosítva vannak még az eszköz elhagyása előtt, így csak a tulajdonos érheti el ezeket. Még maga a Bitwarden csapata se tudja elolvasni az adatokat, még ha akarnák, akkor sem. Az adatok AES-256 bites titkosítással, egy úgynevezett 'salted hasing' módszerrel és  PBKDF2 SHA-256 titkosítással vannak védve.</value>
+A Bitwarden egy titkosított széfben tárolja az összes bejelentkezés és szinkronizálja őket az összes eszközön. Mivel ezek az adatok teljesen titkosítva vannak még az eszköz elhagyása előtt, így csak a tulajdonos érheti el ezeket. Még maga a Bytegarden csapata se tudja elolvasni az adatokat, még ha akarnák, akkor sem. Az adatok AES-256 bites titkosítással, egy úgynevezett 'salted hasing' módszerrel és  PBKDF2 SHA-256 titkosítással vannak védve.</value>
   </data>
   <data name="AssetTitle" xml:space="preserve">
     <value>Egy biztonságos és ingyenes jelszó kezelő az összes eszközödre</value>

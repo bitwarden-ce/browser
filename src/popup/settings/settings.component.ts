@@ -26,17 +26,17 @@ import { UserService } from 'jslib/abstractions/user.service';
 
 const RateUrls = {
     [DeviceType.ChromeExtension]:
-        'https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews',
+        'https://chrome.google.com/webstore/detail/bytegarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews',
     [DeviceType.FirefoxExtension]:
-        'https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/#reviews',
+        'https://addons.mozilla.org/en-US/firefox/addon/bytegarden-password-manager/#reviews',
     [DeviceType.OperaExtension]:
-        'https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/#feedback-container',
+        'https://addons.opera.com/en/extensions/details/bytegarden-free-password-manager/#feedback-container',
     [DeviceType.EdgeExtension]:
-        'https://www.microsoft.com/store/p/bitwarden-free-password-manager/9p6kxl0svnnl',
+        'https://www.microsoft.com/store/p/bytegarden-free-password-manager/9p6kxl0svnnl',
     [DeviceType.VivaldiExtension]:
-        'https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews',
+        'https://chrome.google.com/webstore/detail/bytegarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews',
     [DeviceType.SafariExtension]:
-        'https://apps.apple.com/app/bitwarden/id1352778147',
+        'https://apps.apple.com/app/bytegarden/id1352778147',
 };
 
 @Component({
@@ -185,7 +185,7 @@ export class SettingsComponent implements OnInit {
             this.i18nService.t('changeMasterPasswordConfirmation'), this.i18nService.t('changeMasterPassword'),
             this.i18nService.t('yes'), this.i18nService.t('cancel'));
         if (confirmed) {
-            BrowserApi.createNewTab('https://help.bitwarden.com/article/change-your-master-password/');
+            BrowserApi.createNewTab('https://help.bytegarden.com/article/change-your-master-password/');
         }
     }
 
@@ -195,7 +195,7 @@ export class SettingsComponent implements OnInit {
             this.i18nService.t('twoStepLoginConfirmation'), this.i18nService.t('twoStepLogin'),
             this.i18nService.t('yes'), this.i18nService.t('cancel'));
         if (confirmed) {
-            BrowserApi.createNewTab('https://help.bitwarden.com/article/setup-two-step-login/');
+            BrowserApi.createNewTab('https://help.bytegarden.com/article/setup-two-step-login/');
         }
     }
 
@@ -205,7 +205,7 @@ export class SettingsComponent implements OnInit {
             this.i18nService.t('shareVaultConfirmation'), this.i18nService.t('shareVault'),
             this.i18nService.t('yes'), this.i18nService.t('cancel'));
         if (confirmed) {
-            BrowserApi.createNewTab('https://help.bitwarden.com/article/what-is-an-organization/');
+            BrowserApi.createNewTab('https://help.bytegarden.com/article/what-is-an-organization/');
         }
     }
 
@@ -213,19 +213,19 @@ export class SettingsComponent implements OnInit {
         this.analytics.eventTrack.next({ action: 'Clicked Web Vault' });
         let url = this.environmentService.getWebVaultUrl();
         if (url == null) {
-            url = 'https://vault.bitwarden.com';
+            url = 'https://vault.bytegarden.com';
         }
         BrowserApi.createNewTab(url);
     }
 
     import() {
         this.analytics.eventTrack.next({ action: 'Clicked Import Items' });
-        BrowserApi.createNewTab('https://help.bitwarden.com/article/import-data/');
+        BrowserApi.createNewTab('https://help.bytegarden.com/article/import-data/');
     }
 
     export() {
         if (this.platformUtilsService.isEdge()) {
-            BrowserApi.createNewTab('https://help.bitwarden.com/article/export-your-data/');
+            BrowserApi.createNewTab('https://help.bytegarden.com/article/export-your-data/');
             return;
         }
 
@@ -234,7 +234,7 @@ export class SettingsComponent implements OnInit {
 
     help() {
         this.analytics.eventTrack.next({ action: 'Clicked Help and Feedback' });
-        BrowserApi.createNewTab('https://help.bitwarden.com/');
+        BrowserApi.createNewTab('https://help.bytegarden.com/');
     }
 
     about() {
@@ -272,7 +272,7 @@ export class SettingsComponent implements OnInit {
         });
 
         if (result) {
-            this.platformUtilsService.launchUri('https://help.bitwarden.com/article/fingerprint-phrase/');
+            this.platformUtilsService.launchUri('https://help.bytegarden.com/article/fingerprint-phrase/');
         }
     }
 
