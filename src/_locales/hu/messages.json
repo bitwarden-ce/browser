@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden - Ingyenes Jelszó Kezelő",
+    "message": "Bytegarden - Ingyenes Jelszó Kezelő",
     "description": "Extension name"
   },
   "extDesc": {
@@ -558,7 +558,7 @@
     "message": "Amikor a \"Jelszó megváltozott értesítés\" jelszó változást észlel egy webhelyen, automatikusan kéri, hogy módosítsd a webhelyhez tartozó jelszót a széfedben is."
   },
   "notificationChangeDesc": {
-    "message": "Szeretnéd frisíteni a jelszót a Bitwarden-ben?"
+    "message": "Szeretnéd frisíteni a jelszót a Bytegarden-ben?"
   },
   "notificationChangeSave": {
     "message": "Igen, frissítsd"
@@ -613,7 +613,7 @@
     "message": "Széfed megosztása"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden lehetővé teszi egy szervezeti fiók használatával a fiók megosztását másokkal. Szeretnél többet megtudni a bytegarden.com weboldalon?"
+    "message": "Bytegarden lehetővé teszi egy szervezeti fiók használatával a fiók megosztását másokkal. Szeretnél többet megtudni a bytegarden.com weboldalon?"
   },
   "shareItem": {
     "message": "Share Item"
@@ -1206,7 +1206,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "A választott mesterjelszó gyenge. Erős jelszót (vagy kifejezést) kell használnod a Bitwarden fiókod megfelelő védelme érdekében. Biztosan ezt a mesterjelszót szeretnéd használni?"
+    "message": "A választott mesterjelszó gyenge. Erős jelszót (vagy kifejezést) kell használnod a Bytegarden fiókod megfelelő védelme érdekében. Biztosan ezt a mesterjelszót szeretnéd használni?"
   },
   "pin": {
     "message": "PIN",
@@ -1216,7 +1216,7 @@
     "message": "Kinyitás PIN kóddal"
   },
   "setYourPinCode": {
-    "message": "Set your PIN code for unlocking Bitwarden. Your PIN settings will be reset if you ever fully log out of the application."
+    "message": "Set your PIN code for unlocking Bytegarden. Your PIN settings will be reset if you ever fully log out of the application."
   },
   "pinRequired": {
     "message": "PIN kód szükséges."

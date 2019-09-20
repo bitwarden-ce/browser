@@ -1,7 +1,7 @@
 import {
     PlatformUtilsService,
     StorageService,
-} from 'jslib/abstractions';
+} from '@bytegarden/jslib/src/abstractions';
 
 import { SafariApp } from '../browser/safariApp';
 

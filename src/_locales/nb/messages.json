@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden — Fri passordbehandling",
+    "message": "Bytegarden — Fri passordbehandling",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden er en sikker og fri passordbehandler for alle dine PCer og mobiler.",
+    "message": "Bytegarden er en sikker og fri passordbehandler for alle dine PCer og mobiler.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Generer automatisk sterke og unike passord for dine innlogginger."
   },
   "bitWebVault": {
-    "message": "Bitwarden Netthvelv"
+    "message": "Bytegarden Netthvelv"
   },
   "importItems": {
     "message": "Importer gjenstander"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy\/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Skal Bitwarden huske på dette passordet for deg?"
+    "message": "Skal Bytegarden huske på dette passordet for deg?"
   },
   "notificationAddSave": {
     "message": "Ja, lagre nå"
@@ -558,7 +558,7 @@
     "message": "«Endret passord»-beskjeden spør deg automatisk om å oppdatere et innloggingspassord i hvelvet ditt, dersom den oppdager at du har endret det på et nettsted."
   },
   "notificationChangeDesc": {
-    "message": "Vil du oppdatere dette passordet i Bitwarden?"
+    "message": "Vil du oppdatere dette passordet i Bytegarden?"
   },
   "notificationChangeSave": {
     "message": "Ja, oppdater nå"
@@ -613,7 +613,7 @@
     "message": "Del hvelvet ditt"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden lar deg dele hvelvet ditt med andre ved å bruke en organisasjonskonto. Vil du besøke bytegarden.com-nettstedet for å lære mer?"
+    "message": "Bytegarden lar deg dele hvelvet ditt med andre ved å bruke en organisasjonskonto. Vil du besøke bytegarden.com-nettstedet for å lære mer?"
   },
   "shareItem": {
     "message": "Del element"
@@ -721,7 +721,7 @@
     "message": "Du er et Premium-medlem!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Takk for at du støtter Bitwarden."
+    "message": "Takk for at du støtter Bytegarden."
   },
   "premiumPrice": {
     "message": "Og alt det for %price%\/år!",
@@ -838,7 +838,7 @@
     "message": "Selvbetjent miljø"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Spesifiser grunn-nettadressen til din selvbetjente Bitwarden-installasjon."
+    "message": "Spesifiser grunn-nettadressen til din selvbetjente Bytegarden-installasjon."
   },
   "customEnvironment": {
     "message": "Tilpasset miljø"
@@ -1206,7 +1206,7 @@
     "message": "Svakt superpassord"
   },
   "weakMasterPasswordDesc": {
-    "message": "Superpassordet du har valgt er svakt. Du bør bruke et sterkt superpassord (eller en passordfrase) for å sikre Bitwarden-kontoen din på en forsvarlig måte. Er du sikker på at du vil bruke dette superpassordet?"
+    "message": "Superpassordet du har valgt er svakt. Du bør bruke et sterkt superpassord (eller en passordfrase) for å sikre Bytegarden-kontoen din på en forsvarlig måte. Er du sikker på at du vil bruke dette superpassordet?"
   },
   "pin": {
     "message": "PIN",
@@ -1216,7 +1216,7 @@
     "message": "Lås opp med PIN"
   },
   "setYourPinCode": {
-    "message": "Angi PIN-koden din for å låse opp Bitwarden. PIN-innstillingene tilbakestilles hvis du logger deg helt ut av programmet."
+    "message": "Angi PIN-koden din for å låse opp Bytegarden. PIN-innstillingene tilbakestilles hvis du logger deg helt ut av programmet."
   },
   "pinRequired": {
     "message": "PIN-kode er påkrevd."

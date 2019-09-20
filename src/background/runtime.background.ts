@@ -1,19 +1,19 @@
-import { CipherType } from 'jslib/enums';
+import { CipherType } from '@bytegarden/jslib/src/enums';
 
-import { CipherView } from 'jslib/models/view/cipherView';
-import { LoginUriView } from 'jslib/models/view/loginUriView';
-import { LoginView } from 'jslib/models/view/loginView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
+import { LoginUriView } from '@bytegarden/jslib/src/models/view/loginUriView';
+import { LoginView } from '@bytegarden/jslib/src/models/view/loginView';
 
-import { ConstantsService } from 'jslib/services/constants.service';
+import { ConstantsService } from '@bytegarden/jslib/src/services/constants.service';
 
-import { I18nService } from 'jslib/abstractions/i18n.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
 
-import { Analytics } from 'jslib/misc';
+import { Analytics } from '@bytegarden/jslib/src/misc';
 
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { LockService } from 'jslib/abstractions/lock.service';
-import { StorageService } from 'jslib/abstractions/storage.service';
-import { SystemService } from 'jslib/abstractions/system.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { StorageService } from '@bytegarden/jslib/src/abstractions/storage.service';
+import { SystemService } from '@bytegarden/jslib/src/abstractions/system.service';
 
 import { BrowserApi } from '../browser/browserApi';
 
@@ -22,9 +22,9 @@ import MainBackground from './main.background';
 import { AutofillService } from '../services/abstractions/autofill.service';
 import BrowserPlatformUtilsService from '../services/browserPlatformUtils.service';
 
-import { NotificationsService } from 'jslib/abstractions/notifications.service';
+import { NotificationsService } from '@bytegarden/jslib/src/abstractions/notifications.service';
 
-import { Utils } from 'jslib/misc/utils';
+import { Utils } from '@bytegarden/jslib/src/misc/utils';
 
 export default class RuntimeBackground {
     private runtime: any;

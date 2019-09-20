@@ -1,16 +1,16 @@
 import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { StateService } from 'jslib/abstractions/state.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PasswordGenerationService } from '@bytegarden/jslib/src/abstractions/passwordGeneration.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { StateService } from '@bytegarden/jslib/src/abstractions/state.service';
 
-import { CipherView } from 'jslib/models/view/cipherView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
 
 import {
     PasswordGeneratorComponent as BasePasswordGeneratorComponent,
-} from 'jslib/angular/components/password-generator.component';
+} from '@bytegarden/jslib/src/angular/components/password-generator.component';
 
 @Component({
     selector: 'app-password-generator',

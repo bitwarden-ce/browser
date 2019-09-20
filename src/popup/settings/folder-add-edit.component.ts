@@ -4,13 +4,13 @@ import {
     Router,
 } from '@angular/router';
 
-import { FolderService } from 'jslib/abstractions/folder.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { FolderService } from '@bytegarden/jslib/src/abstractions/folder.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 import {
     FolderAddEditComponent as BaseFolderAddEditComponent,
-} from 'jslib/angular/components/folder-add-edit.component';
+} from '@bytegarden/jslib/src/angular/components/folder-add-edit.component';
 
 @Component({
     selector: 'app-folder-add-edit',

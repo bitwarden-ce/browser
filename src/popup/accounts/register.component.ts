@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { ApiService } from 'jslib/abstractions/api.service';
-import { AuthService } from 'jslib/abstractions/auth.service';
-import { CryptoService } from 'jslib/abstractions/crypto.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { StateService } from 'jslib/abstractions/state.service';
+import { ApiService } from '@bytegarden/jslib/src/abstractions/api.service';
+import { AuthService } from '@bytegarden/jslib/src/abstractions/auth.service';
+import { CryptoService } from '@bytegarden/jslib/src/abstractions/crypto.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PasswordGenerationService } from '@bytegarden/jslib/src/abstractions/passwordGeneration.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { StateService } from '@bytegarden/jslib/src/abstractions/state.service';
 
-import { RegisterComponent as BaseRegisterComponent } from 'jslib/angular/components/register.component';
+import { RegisterComponent as BaseRegisterComponent } from '@bytegarden/jslib/src/angular/components/register.component';
 
 @Component({
     selector: 'app-register',

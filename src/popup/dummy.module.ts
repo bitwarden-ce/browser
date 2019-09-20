@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { SearchPipe } from 'jslib/angular/pipes/search.pipe';
+import { SearchPipe } from '@bytegarden/jslib/src/angular/pipes/search.pipe';
 
 @NgModule({
     imports: [],

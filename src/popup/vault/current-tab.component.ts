@@ -13,26 +13,26 @@ import { Angulartics2 } from 'angulartics2';
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { BroadcasterService } from 'jslib/angular/services/broadcaster.service';
+import { BroadcasterService } from '@bytegarden/jslib/src/angular/services/broadcaster.service';
 
-import { CipherType } from 'jslib/enums/cipherType';
+import { CipherType } from '@bytegarden/jslib/src/enums/cipherType';
 
-import { CipherView } from 'jslib/models/view/cipherView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
 
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { SearchService } from 'jslib/abstractions/search.service';
-import { StorageService } from 'jslib/abstractions/storage.service';
-import { SyncService } from 'jslib/abstractions/sync.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { SearchService } from '@bytegarden/jslib/src/abstractions/search.service';
+import { StorageService } from '@bytegarden/jslib/src/abstractions/storage.service';
+import { SyncService } from '@bytegarden/jslib/src/abstractions/sync.service';
 
-import { ConstantsService } from 'jslib/services/constants.service';
+import { ConstantsService } from '@bytegarden/jslib/src/services/constants.service';
 
 import { AutofillService } from '../../services/abstractions/autofill.service';
 
 import { PopupUtilsService } from '../services/popup-utils.service';
 
-import { Utils } from 'jslib/misc/utils';
+import { Utils } from '@bytegarden/jslib/src/misc/utils';
 
 const BroadcasterSubscriptionId = 'CurrentTabComponent';
 

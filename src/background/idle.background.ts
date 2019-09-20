@@ -1,10 +1,10 @@
-import { ConstantsService } from 'jslib/services/constants.service';
+import { ConstantsService } from '@bytegarden/jslib/src/services/constants.service';
 
 import {
     LockService,
     StorageService,
-} from 'jslib/abstractions';
-import { NotificationsService } from 'jslib/abstractions/notifications.service';
+} from '@bytegarden/jslib/src/abstractions';
+import { NotificationsService } from '@bytegarden/jslib/src/abstractions/notifications.service';
 
 const IdleInterval = 60 * 5; // 5 minutes
 

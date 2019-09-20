@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 @Injectable()
 export class PopupUtilsService {

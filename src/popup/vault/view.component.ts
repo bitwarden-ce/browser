@@ -9,19 +9,19 @@ import {
     Router,
 } from '@angular/router';
 
-import { AuditService } from 'jslib/abstractions/audit.service';
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { CryptoService } from 'jslib/abstractions/crypto.service';
-import { EventService } from 'jslib/abstractions/event.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { TokenService } from 'jslib/abstractions/token.service';
-import { TotpService } from 'jslib/abstractions/totp.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { AuditService } from '@bytegarden/jslib/src/abstractions/audit.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { CryptoService } from '@bytegarden/jslib/src/abstractions/crypto.service';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { TokenService } from '@bytegarden/jslib/src/abstractions/token.service';
+import { TotpService } from '@bytegarden/jslib/src/abstractions/totp.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
-import { BroadcasterService } from 'jslib/angular/services/broadcaster.service';
+import { BroadcasterService } from '@bytegarden/jslib/src/angular/services/broadcaster.service';
 
-import { ViewComponent as BaseViewComponent } from 'jslib/angular/components/view.component';
+import { ViewComponent as BaseViewComponent } from '@bytegarden/jslib/src/angular/components/view.component';
 
 @Component({
     selector: 'app-vault-view',

@@ -5,9 +5,9 @@ import {
     Output,
 } from '@angular/core';
 
-import { CipherType } from 'jslib/enums/cipherType';
+import { CipherType } from '@bytegarden/jslib/src/enums/cipherType';
 
-import { CipherView } from 'jslib/models/view/cipherView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
 
 @Component({
     selector: 'app-ciphers-list',

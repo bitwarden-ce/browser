@@ -9,19 +9,8 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'jslib/src/abstractions/**/*.ts',
-            'jslib/src/enums/**/*.ts',
-            'jslib/src/models/**/*.ts',
-            'jslib/src/services/**/*.ts',
-            'jslib/src/misc/**/*.ts',
             'src/browser/**/*.ts',
             'src/services/**/*.ts'
-        ],
-
-        // list of files to exclude
-        exclude: [
-            "jslib/src/services/nodeApi.service.ts",
-            "jslib/src/services/lowdbStorage.service.ts"
         ],
 
         // preprocess matching files before serving them to the browser

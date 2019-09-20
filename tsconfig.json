@@ -13,9 +13,6 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "jslib/*": [
-        "jslib/src/*"
-      ],
       "@angular/*": [
         "node_modules/@angular/*"
       ],

@@ -6,8 +6,8 @@ import {
     Router,
 } from '@angular/router';
 
-import { LockService } from 'jslib/abstractions/lock.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
 @Injectable()
 export class LaunchGuardService implements CanActivate {

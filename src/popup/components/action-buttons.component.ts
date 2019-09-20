@@ -10,14 +10,14 @@ import { Angulartics2 } from 'angulartics2';
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { CipherType } from 'jslib/enums/cipherType';
-import { EventType } from 'jslib/enums/eventType';
+import { CipherType } from '@bytegarden/jslib/src/enums/cipherType';
+import { EventType } from '@bytegarden/jslib/src/enums/eventType';
 
-import { CipherView } from 'jslib/models/view/cipherView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
 
-import { EventService } from 'jslib/abstractions/event.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 import { PopupUtilsService } from '../services/popup-utils.service';
 

@@ -31,7 +31,6 @@ import { ExportComponent } from './settings/export.component';
 import { FolderAddEditComponent } from './settings/folder-add-edit.component';
 import { FoldersComponent } from './settings/folders.component';
 import { OptionsComponent } from './settings/options.component';
-import { PremiumComponent } from './settings/premium.component';
 import { SettingsComponent } from './settings/settings.component';
 import { SyncComponent } from './settings/sync.component';
 import { TabsComponent } from './tabs.component';
@@ -45,27 +44,27 @@ import { PasswordHistoryComponent } from './vault/password-history.component';
 import { ShareComponent } from './vault/share.component';
 import { ViewComponent } from './vault/view.component';
 
-import { A11yTitleDirective } from 'jslib/angular/directives/a11y-title.directive';
-import { ApiActionDirective } from 'jslib/angular/directives/api-action.directive';
-import { AutofocusDirective } from 'jslib/angular/directives/autofocus.directive';
-import { BlurClickDirective } from 'jslib/angular/directives/blur-click.directive';
-import { BoxRowDirective } from 'jslib/angular/directives/box-row.directive';
-import { FallbackSrcDirective } from 'jslib/angular/directives/fallback-src.directive';
-import { InputVerbatimDirective } from 'jslib/angular/directives/input-verbatim.directive';
-import { SelectCopyDirective } from 'jslib/angular/directives/select-copy.directive';
-import { StopClickDirective } from 'jslib/angular/directives/stop-click.directive';
-import { StopPropDirective } from 'jslib/angular/directives/stop-prop.directive';
-import { TrueFalseValueDirective } from 'jslib/angular/directives/true-false-value.directive';
+import { A11yTitleDirective } from '@bytegarden/jslib/src/angular/directives/a11y-title.directive';
+import { ApiActionDirective } from '@bytegarden/jslib/src/angular/directives/api-action.directive';
+import { AutofocusDirective } from '@bytegarden/jslib/src/angular/directives/autofocus.directive';
+import { BlurClickDirective } from '@bytegarden/jslib/src/angular/directives/blur-click.directive';
+import { BoxRowDirective } from '@bytegarden/jslib/src/angular/directives/box-row.directive';
+import { FallbackSrcDirective } from '@bytegarden/jslib/src/angular/directives/fallback-src.directive';
+import { InputVerbatimDirective } from '@bytegarden/jslib/src/angular/directives/input-verbatim.directive';
+import { SelectCopyDirective } from '@bytegarden/jslib/src/angular/directives/select-copy.directive';
+import { StopClickDirective } from '@bytegarden/jslib/src/angular/directives/stop-click.directive';
+import { StopPropDirective } from '@bytegarden/jslib/src/angular/directives/stop-prop.directive';
+import { TrueFalseValueDirective } from '@bytegarden/jslib/src/angular/directives/true-false-value.directive';
 
-import { ColorPasswordPipe } from 'jslib/angular/pipes/color-password.pipe';
-import { I18nPipe } from 'jslib/angular/pipes/i18n.pipe';
-import { SearchCiphersPipe } from 'jslib/angular/pipes/search-ciphers.pipe';
+import { ColorPasswordPipe } from '@bytegarden/jslib/src/angular/pipes/color-password.pipe';
+import { I18nPipe } from '@bytegarden/jslib/src/angular/pipes/i18n.pipe';
+import { SearchCiphersPipe } from '@bytegarden/jslib/src/angular/pipes/search-ciphers.pipe';
 
 import { ActionButtonsComponent } from './components/action-buttons.component';
 import { CiphersListComponent } from './components/ciphers-list.component';
 import { PopOutComponent } from './components/pop-out.component';
 
-import { IconComponent } from 'jslib/angular/components/icon.component';
+import { IconComponent } from '@bytegarden/jslib/src/angular/components/icon.component';
 
 import {
     CurrencyPipe,
@@ -188,7 +187,6 @@ registerLocaleData(localeZhTw, 'zh-TW');
         PasswordGeneratorHistoryComponent,
         PasswordHistoryComponent,
         PopOutComponent,
-        PremiumComponent,
         PrivateModeComponent,
         RegisterComponent,
         SearchCiphersPipe,

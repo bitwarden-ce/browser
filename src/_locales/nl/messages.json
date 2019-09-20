@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden - Gratis wachtwoordbeheerder",
+    "message": "Bytegarden - Gratis wachtwoordbeheerder",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden is een veilige, gratis wachtwoordbeheerder voor al uw apparaten.",
+    "message": "Bytegarden is een veilige, gratis wachtwoordbeheerder voor al uw apparaten.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Genereer automatisch sterke, unieke wachtwoorden voor je logins."
   },
   "bitWebVault": {
-    "message": "Bitwarden-webkluis"
+    "message": "Bytegarden-webkluis"
   },
   "importItems": {
     "message": "Items importeren"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy\/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Moet Bitwarden dit wachtwoord onthouden?"
+    "message": "Moet Bytegarden dit wachtwoord onthouden?"
   },
   "notificationAddSave": {
     "message": "Ja, nu opslaan"
@@ -558,7 +558,7 @@
     "message": "De \"Melding van gewijzigd wachtwoord\" stelt automatisch voor om een wachtwoord in de kluis bij te werken wanneer het op een website is gewijzigd."
   },
   "notificationChangeDesc": {
-    "message": "Wilt u dit wachtwoord in Bitwarden bijwerken?"
+    "message": "Wilt u dit wachtwoord in Bytegarden bijwerken?"
   },
   "notificationChangeSave": {
     "message": "Ja, nu bijwerken"
@@ -613,7 +613,7 @@
     "message": "Uw kluis delen"
   },
   "shareVaultConfirmation": {
-    "message": "Met een organisatie-account kunt u een Bitwarden-kluis met anderen delen. Wilt u op de website bytegarden.com meer informatie lezen?"
+    "message": "Met een organisatie-account kunt u een Bytegarden-kluis met anderen delen. Wilt u op de website bytegarden.com meer informatie lezen?"
   },
   "shareItem": {
     "message": "Object delen"
@@ -721,7 +721,7 @@
     "message": "U bent een Premium-lid!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Bedankt voor de ondersteuning van Bitwarden."
+    "message": "Bedankt voor de ondersteuning van Bytegarden."
   },
   "premiumPrice": {
     "message": "Dit alles voor slechts $PRICE$ per jaar!",
@@ -838,7 +838,7 @@
     "message": "Zelfgehoste omgeving"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specificeer de basis-URL van uw op locatie gehoste Bitwarden-installatie."
+    "message": "Specificeer de basis-URL van uw op locatie gehoste Bytegarden-installatie."
   },
   "customEnvironment": {
     "message": "Aangepaste omgeving"
@@ -1206,7 +1206,7 @@
     "message": "Zwak hoofdwachtwoord"
   },
   "weakMasterPasswordDesc": {
-    "message": "U hebt een zwak hoofdwachtwoord gekozen. Om uw Bitwarden account goed te beschermen zou u een sterk hoofdwachtwoord (of wachtwoordzin) moeten gebruiken. Weet u zeker dat u dit hoofdwachtwoord wilt gebruiken?"
+    "message": "U hebt een zwak hoofdwachtwoord gekozen. Om uw Bytegarden account goed te beschermen zou u een sterk hoofdwachtwoord (of wachtwoordzin) moeten gebruiken. Weet u zeker dat u dit hoofdwachtwoord wilt gebruiken?"
   },
   "pin": {
     "message": "PIN",
@@ -1216,7 +1216,7 @@
     "message": "Ontgrendelen met PIN"
   },
   "setYourPinCode": {
-    "message": "Uw PIN-code voor het ontgrendelen Bitwarden instellen. Als u zich ooit volledig afmeldt bij de toepassing zullen uw PIN-instellingen opnieuw worden ingesteld."
+    "message": "Uw PIN-code voor het ontgrendelen Bytegarden instellen. Als u zich ooit volledig afmeldt bij de toepassing zullen uw PIN-instellingen opnieuw worden ingesteld."
   },
   "pinRequired": {
     "message": "PIN-code is vereist."

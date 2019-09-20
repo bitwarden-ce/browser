@@ -15,25 +15,25 @@ import {
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { CipherType } from 'jslib/enums/cipherType';
+import { CipherType } from '@bytegarden/jslib/src/enums/cipherType';
 
-import { CipherView } from 'jslib/models/view/cipherView';
-import { CollectionView } from 'jslib/models/view/collectionView';
-import { FolderView } from 'jslib/models/view/folderView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
+import { CollectionView } from '@bytegarden/jslib/src/models/view/collectionView';
+import { FolderView } from '@bytegarden/jslib/src/models/view/folderView';
 
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { CollectionService } from 'jslib/abstractions/collection.service';
-import { FolderService } from 'jslib/abstractions/folder.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { SearchService } from 'jslib/abstractions/search.service';
-import { StateService } from 'jslib/abstractions/state.service';
-import { StorageService } from 'jslib/abstractions/storage.service';
-import { SyncService } from 'jslib/abstractions/sync.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { CollectionService } from '@bytegarden/jslib/src/abstractions/collection.service';
+import { FolderService } from '@bytegarden/jslib/src/abstractions/folder.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { SearchService } from '@bytegarden/jslib/src/abstractions/search.service';
+import { StateService } from '@bytegarden/jslib/src/abstractions/state.service';
+import { StorageService } from '@bytegarden/jslib/src/abstractions/storage.service';
+import { SyncService } from '@bytegarden/jslib/src/abstractions/sync.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
-import { BroadcasterService } from 'jslib/angular/services/broadcaster.service';
+import { BroadcasterService } from '@bytegarden/jslib/src/angular/services/broadcaster.service';
 
-import { GroupingsComponent as BaseGroupingsComponent } from 'jslib/angular/components/groupings.component';
+import { GroupingsComponent as BaseGroupingsComponent } from '@bytegarden/jslib/src/angular/components/groupings.component';
 
 import { PopupUtilsService } from '../services/popup-utils.service';
 

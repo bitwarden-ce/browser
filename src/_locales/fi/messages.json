@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden – Ilmainen salasananhallinta",
+    "message": "Bytegarden – Ilmainen salasananhallinta",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden on turvallinen ja ilmainen salasananhallintapalvelu kaikille laitteillesi.",
+    "message": "Bytegarden on turvallinen ja ilmainen salasananhallintapalvelu kaikille laitteillesi.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy\/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Haluatko, että Bitwarden muistaa tämän salasanan puolestasi?"
+    "message": "Haluatko, että Bytegarden muistaa tämän salasanan puolestasi?"
   },
   "notificationAddSave": {
     "message": "Kyllä, tallenna nyt"
@@ -558,7 +558,7 @@
     "message": "\"Vaihdettu salasana ilmoitus\" kehottaa automaattisesti päivittämään kirjautumissalasanasi holvissasi, kun se havaitsee, että olet vaihtanut sen verkkosivulla."
   },
   "notificationChangeDesc": {
-    "message": "Haluatko päivittää tämän salasanan Bitwardenissa?"
+    "message": "Haluatko päivittää tämän salasanan Bytegardenissa?"
   },
   "notificationChangeSave": {
     "message": "Kyllä, päivitä nyt"
@@ -613,7 +613,7 @@
     "message": "Jaa holvisi"
   },
   "shareVaultConfirmation": {
-    "message": "Voit jakaa Bitwardenilla holvisi sisällön muiden kanssa käyttämällä organisaatiotiliä. Haluatko käydä bytegarden.com-sivustolla lukemassa lisää?"
+    "message": "Voit jakaa Bytegardenilla holvisi sisällön muiden kanssa käyttämällä organisaatiotiliä. Haluatko käydä bytegarden.com-sivustolla lukemassa lisää?"
   },
   "shareItem": {
     "message": "Share Item"
@@ -721,7 +721,7 @@
     "message": "Olet premium-jäsen!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Kiitos, että tuet Bitwardenin toimintaa."
+    "message": "Kiitos, että tuet Bytegardenin toimintaa."
   },
   "premiumPrice": {
     "message": "Kaikki nämä vain $PRICE$ \/ vuosi!",
@@ -1206,7 +1206,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "Valitsemasi pääsalasana on heikko. Sinun kannattaa käyttää vahvaa pääsalasanaa (tai ‑salalauseketta) suojataksesi Bitwarden-tilisi kunnolla. Haluatko varmasti käyttää tätä pääsalasanaa?"
+    "message": "Valitsemasi pääsalasana on heikko. Sinun kannattaa käyttää vahvaa pääsalasanaa (tai ‑salalauseketta) suojataksesi Bytegarden-tilisi kunnolla. Haluatko varmasti käyttää tätä pääsalasanaa?"
   },
   "pin": {
     "message": "PIN",
@@ -1216,7 +1216,7 @@
     "message": "Avaa PIN-koodilla"
   },
   "setYourPinCode": {
-    "message": "Aseta PIN-koodi Bitwardenin avaamista varten. PIN-asetukset nollautuvat, jos kirjaudut täysin ulos sovelluksesta."
+    "message": "Aseta PIN-koodi Bytegardenin avaamista varten. PIN-asetukset nollautuvat, jos kirjaudut täysin ulos sovelluksesta."
   },
   "pinRequired": {
     "message": "PIN-koodi vaaditaan."

@@ -11,18 +11,18 @@ import { Router } from '@angular/router';
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { DeviceType } from 'jslib/enums/deviceType';
+import { DeviceType } from '@bytegarden/jslib/src/enums/deviceType';
 
-import { ConstantsService } from 'jslib/services/constants.service';
+import { ConstantsService } from '@bytegarden/jslib/src/services/constants.service';
 
-import { CryptoService } from 'jslib/abstractions/crypto.service';
-import { EnvironmentService } from 'jslib/abstractions/environment.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { LockService } from 'jslib/abstractions/lock.service';
-import { MessagingService } from 'jslib/abstractions/messaging.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { StorageService } from 'jslib/abstractions/storage.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { CryptoService } from '@bytegarden/jslib/src/abstractions/crypto.service';
+import { EnvironmentService } from '@bytegarden/jslib/src/abstractions/environment.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { MessagingService } from '@bytegarden/jslib/src/abstractions/messaging.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { StorageService } from '@bytegarden/jslib/src/abstractions/storage.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
 const RateUrls = {
     [DeviceType.ChromeExtension]:
@@ -245,7 +245,7 @@ export class SettingsComponent implements OnInit {
             this.i18nService.t('version') + ': ' + BrowserApi.getApplicationVersion());
         const div = document.createElement('div');
         div.innerHTML = `<p class="text-center"><i class="fa fa-shield fa-3x"></i></p>
-            <p class="text-center"><b>Bitwarden</b><br>&copy; 8bit Solutions LLC 2015-` + year + `</p>`;
+            <p class="text-center"><b>Bytegarden</b><br>&copy; 8bit Solutions LLC 2015-` + year + `</p>`;
         div.appendChild(versionText);
 
         swal({

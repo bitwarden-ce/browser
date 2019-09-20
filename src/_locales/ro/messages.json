@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden - Manager de parole gratuit",
+    "message": "Bytegarden - Manager de parole gratuit",
     "description": "Extension name"
   },
   "extDesc": {
@@ -558,7 +558,7 @@
     "message": "The \"Changed Password Notification\" automatically prompts you to update a login's password in your vault whenever it detects that you have changed it on a website."
   },
   "notificationChangeDesc": {
-    "message": "Doriţi să actualizaţi această parolă în Bitwarden?"
+    "message": "Doriţi să actualizaţi această parolă în Bytegarden?"
   },
   "notificationChangeSave": {
     "message": "Yes, Update Now"
@@ -613,7 +613,7 @@
     "message": "Partajare seif"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden vă permite să vă împărtășiți seiful cu alte persoane utilizând un cont pentru organizații. Doriți să vizitați site-ul bytegarden.com pentru a afla mai multe?"
+    "message": "Bytegarden vă permite să vă împărtășiți seiful cu alte persoane utilizând un cont pentru organizații. Doriți să vizitați site-ul bytegarden.com pentru a afla mai multe?"
   },
   "shareItem": {
     "message": "Distribuie element"
@@ -1206,7 +1206,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "Parola principală aleasă este slabă. Ar trebui folosită o parolă (sau o frază de access) principală puternică pentru a vă proteja corespunzător contul Bitwarden. Sunteți sigur că doriți să folosiți această parola principală?"
+    "message": "Parola principală aleasă este slabă. Ar trebui folosită o parolă (sau o frază de access) principală puternică pentru a vă proteja corespunzător contul Bytegarden. Sunteți sigur că doriți să folosiți această parola principală?"
   },
   "pin": {
     "message": "PIN",
@@ -1216,7 +1216,7 @@
     "message": "Deblocare cu codul PIN"
   },
   "setYourPinCode": {
-    "message": "Setaţi codul PIN de deblocare Bitwarden. Setările codului PIN vor fi resetate dacă vă deconectaţi vreodată din aplicație."
+    "message": "Setaţi codul PIN de deblocare Bytegarden. Setările codului PIN vor fi resetate dacă vă deconectaţi vreodată din aplicație."
   },
   "pinRequired": {
     "message": "Codul PIN este necesar."

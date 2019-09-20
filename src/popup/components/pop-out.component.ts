@@ -6,7 +6,7 @@ import {
 
 import { Angulartics2 } from 'angulartics2';
 
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 import { PopupUtilsService } from '../services/popup-utils.service';
 

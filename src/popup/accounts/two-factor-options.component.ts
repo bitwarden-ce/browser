@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { AuthService } from 'jslib/abstractions/auth.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { AuthService } from '@bytegarden/jslib/src/abstractions/auth.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 import {
     TwoFactorOptionsComponent as BaseTwoFactorOptionsComponent,
-} from 'jslib/angular/components/two-factor-options.component';
+} from '@bytegarden/jslib/src/angular/components/two-factor-options.component';
 
 @Component({
     selector: 'app-two-factor-options',

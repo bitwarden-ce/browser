@@ -2,14 +2,14 @@ import { BrowserApi } from '../browser/browserApi';
 
 import MainBackground from './main.background';
 
-import { Analytics } from 'jslib/misc';
+import { Analytics } from '@bytegarden/jslib/src/misc';
 
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { EventService } from 'jslib/abstractions/event.service';
-import { LockService } from 'jslib/abstractions/lock.service';
-import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { EventType } from 'jslib/enums/eventType';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { PasswordGenerationService } from '@bytegarden/jslib/src/abstractions/passwordGeneration.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { EventType } from '@bytegarden/jslib/src/enums/eventType';
 
 export default class ContextMenusBackground {
     private contextMenus: any;

@@ -1,6 +1,6 @@
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { LockService } from 'jslib/abstractions/lock.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 export default class WebRequestBackground {
     private pendingAuthRequests: any[] = [];

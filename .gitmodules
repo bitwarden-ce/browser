@@ -1,4 +1,0 @@
-[submodule "jslib"]
-	path = jslib
-	url = https://gitlab.kokakiwi.net/contrib/bitwarden-ce/jslib.git
-	branch = master
