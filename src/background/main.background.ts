@@ -1,4 +1,4 @@
-import { CipherType } from 'jslib/enums';
+import { CipherType } from '@bytegarden/jslib/src/enums';
 
 import {
     ApiService,
@@ -18,13 +18,13 @@ import {
     TokenService,
     TotpService,
     UserService,
-} from 'jslib/services';
-import { EventService } from 'jslib/services/event.service';
-import { ExportService } from 'jslib/services/export.service';
-import { NotificationsService } from 'jslib/services/notifications.service';
-import { SearchService } from 'jslib/services/search.service';
-import { SystemService } from 'jslib/services/system.service';
-import { WebCryptoFunctionService } from 'jslib/services/webCryptoFunction.service';
+} from '@bytegarden/jslib/src/services';
+import { EventService } from '@bytegarden/jslib/src/services/event.service';
+import { ExportService } from '@bytegarden/jslib/src/services/export.service';
+import { NotificationsService } from '@bytegarden/jslib/src/services/notifications.service';
+import { SearchService } from '@bytegarden/jslib/src/services/search.service';
+import { SystemService } from '@bytegarden/jslib/src/services/system.service';
+import { WebCryptoFunctionService } from '@bytegarden/jslib/src/services/webCryptoFunction.service';
 
 import {
     ApiService as ApiServiceAbstraction,
@@ -46,15 +46,15 @@ import {
     TokenService as TokenServiceAbstraction,
     TotpService as TotpServiceAbstraction,
     UserService as UserServiceAbstraction,
-} from 'jslib/abstractions';
-import { EventService as EventServiceAbstraction } from 'jslib/abstractions/event.service';
-import { ExportService as ExportServiceAbstraction } from 'jslib/abstractions/export.service';
-import { NotificationsService as NotificationsServiceAbstraction } from 'jslib/abstractions/notifications.service';
-import { SearchService as SearchServiceAbstraction } from 'jslib/abstractions/search.service';
-import { SystemService as SystemServiceAbstraction } from 'jslib/abstractions/system.service';
+} from '@bytegarden/jslib/src/abstractions';
+import { EventService as EventServiceAbstraction } from '@bytegarden/jslib/src/abstractions/event.service';
+import { ExportService as ExportServiceAbstraction } from '@bytegarden/jslib/src/abstractions/export.service';
+import { NotificationsService as NotificationsServiceAbstraction } from '@bytegarden/jslib/src/abstractions/notifications.service';
+import { SearchService as SearchServiceAbstraction } from '@bytegarden/jslib/src/abstractions/search.service';
+import { SystemService as SystemServiceAbstraction } from '@bytegarden/jslib/src/abstractions/system.service';
 
-import { Analytics } from 'jslib/misc';
-import { Utils } from 'jslib/misc/utils';
+import { Analytics } from '@bytegarden/jslib/src/misc';
+import { Utils } from '@bytegarden/jslib/src/misc/utils';
 
 import { BrowserApi } from '../browser/browserApi';
 import { SafariApp } from '../browser/safariApp';
@@ -407,7 +407,7 @@ export default class MainBackground {
             type: 'normal',
             id: 'root',
             contexts: ['all'],
-            title: 'Bitwarden',
+            title: 'Bytegarden',
         });
 
         await this.contextMenusCreate({
@@ -702,7 +702,7 @@ export default class MainBackground {
                 tabId: tabId,
             });
         } else if (this.sidebarAction.setTitle) {
-            let title = 'Bitwarden';
+            let title = 'Bytegarden';
             if (text && text !== '') {
                 title += (' [' + text + ']');
             }

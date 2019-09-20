@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden - Free Password Manager",
+    "message": "Bytegarden - Free Password Manager",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Automatically generate strong, unique passwords for your logins."
   },
   "bitWebVault": {
-    "message": "Bitwarden web vault"
+    "message": "Bytegarden web vault"
   },
   "importItems": {
     "message": "Import items"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Should Bitwarden remember this password for you?"
+    "message": "Should Bytegarden remember this password for you?"
   },
   "notificationAddSave": {
     "message": "Yes, save now"
@@ -558,7 +558,7 @@
     "message": "The \"changed password notification\" automatically prompts you to update a login's password in your vault whenever it detects that you have changed it on a website."
   },
   "notificationChangeDesc": {
-    "message": "Do you want to update this password in Bitwarden?"
+    "message": "Do you want to update this password in Bytegarden?"
   },
   "notificationChangeSave": {
     "message": "Yes, update now"
@@ -613,7 +613,7 @@
     "message": "Share your vault"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden allows you to share your vault with others by using an organisation account. Would you like to visit the bytegarden.com website to learn more?"
+    "message": "Bytegarden allows you to share your vault with others by using an organisation account. Would you like to visit the bytegarden.com website to learn more?"
   },
   "shareItem": {
     "message": "Share item"
@@ -721,7 +721,7 @@
     "message": "You are a premium member!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Thank you for supporting Bitwarden."
+    "message": "Thank you for supporting Bytegarden."
   },
   "premiumPrice": {
     "message": "All for just $PRICE$ /year!",
@@ -838,7 +838,7 @@
     "message": "Self-hosted environment"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specify the base URL of your on-premise hosted Bitwarden installation."
+    "message": "Specify the base URL of your on-premise hosted Bytegarden installation."
   },
   "customEnvironment": {
     "message": "Custom environment"
@@ -1203,7 +1203,7 @@
     "message": "Weak master password"
   },
   "weakMasterPasswordDesc": {
-    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your Bitwarden account. Are you sure you want to use this master password?"
+    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your Bytegarden account. Are you sure you want to use this master password?"
   },
   "pin": {
     "message": "PIN",
@@ -1213,7 +1213,7 @@
     "message": "Unlock with PIN"
   },
   "setYourPinCode": {
-    "message": "Set your PIN code for unlocking Bitwarden. Your PIN settings will be reset if you ever fully log out of the application."
+    "message": "Set your PIN code for unlocking Bytegarden. Your PIN settings will be reset if you ever fully log out of the application."
   },
   "pinRequired": {
     "message": "PIN code is required."

@@ -1,4 +1,4 @@
-import { I18nService as BaseI18nService } from 'jslib/services/i18n.service';
+import { I18nService as BaseI18nService } from '@bytegarden/jslib/src/services/i18n.service';
 
 import { BrowserApi } from '../browser/browserApi';
 import { SafariApp } from '../browser/safariApp';

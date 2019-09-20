@@ -5,18 +5,18 @@ import {
     Router,
 } from '@angular/router';
 
-import { AuditService } from 'jslib/abstractions/audit.service';
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { CollectionService } from 'jslib/abstractions/collection.service';
-import { EventService } from 'jslib/abstractions/event.service';
-import { FolderService } from 'jslib/abstractions/folder.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { MessagingService } from 'jslib/abstractions/messaging.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { StateService } from 'jslib/abstractions/state.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { AuditService } from '@bytegarden/jslib/src/abstractions/audit.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { CollectionService } from '@bytegarden/jslib/src/abstractions/collection.service';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { FolderService } from '@bytegarden/jslib/src/abstractions/folder.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { MessagingService } from '@bytegarden/jslib/src/abstractions/messaging.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { StateService } from '@bytegarden/jslib/src/abstractions/state.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
-import { AddEditComponent as BaseAddEditComponent } from 'jslib/angular/components/add-edit.component';
+import { AddEditComponent as BaseAddEditComponent } from '@bytegarden/jslib/src/angular/components/add-edit.component';
 
 @Component({
     selector: 'app-vault-add-edit',

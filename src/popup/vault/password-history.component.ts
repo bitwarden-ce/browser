@@ -2,13 +2,13 @@ import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 import {
     PasswordHistoryComponent as BasePasswordHistoryComponent,
-} from 'jslib/angular/components/password-history.component';
+} from '@bytegarden/jslib/src/angular/components/password-history.component';
 
 @Component({
     selector: 'app-password-history',

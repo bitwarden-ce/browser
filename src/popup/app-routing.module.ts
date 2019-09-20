@@ -6,7 +6,7 @@ import {
     Routes,
 } from '@angular/router';
 
-import { AuthGuardService } from 'jslib/angular/services/auth-guard.service';
+import { AuthGuardService } from '@bytegarden/jslib/src/angular/services/auth-guard.service';
 
 import { LaunchGuardService } from './services/launch-guard.service';
 
@@ -25,7 +25,6 @@ import { ExportComponent } from './settings/export.component';
 import { FolderAddEditComponent } from './settings/folder-add-edit.component';
 import { FoldersComponent } from './settings/folders.component';
 import { OptionsComponent } from './settings/options.component';
-import { PremiumComponent } from './settings/premium.component';
 import { SettingsComponent } from './settings/settings.component';
 import { SyncComponent } from './settings/sync.component';
 import { TabsComponent } from './tabs.component';
@@ -186,12 +185,6 @@ const routes: Routes = [
         component: SyncComponent,
         canActivate: [AuthGuardService],
         data: { state: 'sync' },
-    },
-    {
-        path: 'premium',
-        component: PremiumComponent,
-        canActivate: [AuthGuardService],
-        data: { state: 'premium' },
     },
     {
         path: 'options',

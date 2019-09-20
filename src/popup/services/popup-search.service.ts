@@ -1,7 +1,7 @@
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
-import { SearchService } from 'jslib/services/search.service';
+import { SearchService } from '@bytegarden/jslib/src/services/search.service';
 
 export class PopupSearchService extends SearchService {
     constructor(private mainSearchService: SearchService, cipherService: CipherService,

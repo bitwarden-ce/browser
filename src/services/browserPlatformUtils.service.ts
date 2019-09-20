@@ -1,12 +1,12 @@
 import { BrowserApi } from '../browser/browserApi';
 import { SafariApp } from '../browser/safariApp';
 
-import { DeviceType } from 'jslib/enums/deviceType';
+import { DeviceType } from '@bytegarden/jslib/src/enums/deviceType';
 
-import { MessagingService } from 'jslib/abstractions/messaging.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { MessagingService } from '@bytegarden/jslib/src/abstractions/messaging.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
-import { AnalyticsIds } from 'jslib/misc/analytics';
+import { AnalyticsIds } from '@bytegarden/jslib/src/misc/analytics';
 
 const DialogPromiseExpiration = 600000; // 10 minutes
 
@@ -171,10 +171,6 @@ export default class BrowserPlatformUtilsService implements PlatformUtilsService
 
     isDev(): boolean {
         return process.env.ENV === 'development';
-    }
-
-    isSelfHost(): boolean {
-        return false;
     }
 
     copyToClipboard(text: string, options?: any): void {

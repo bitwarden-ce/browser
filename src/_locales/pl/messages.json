@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden - Darmowy Menedżer Haseł",
+    "message": "Bytegarden - Darmowy Menedżer Haseł",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Automatycznie wygeneruj silne, unikatowe hasła dla swoich loginów."
   },
   "bitWebVault": {
-    "message": "Internetowy Sejf Bitwarden"
+    "message": "Internetowy Sejf Bytegarden"
   },
   "importItems": {
     "message": "Importuj elementy"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Czy Bitwarden powinien zapisać dla Ciebie to hasło?"
+    "message": "Czy Bytegarden powinien zapisać dla Ciebie to hasło?"
   },
   "notificationAddSave": {
     "message": "Tak, Zapisz teraz"
@@ -558,7 +558,7 @@
     "message": "\"Powiadomienie o zmianie hasła\" automatycznie pyta Cię o zaktualizowanie hasła w Twoim sejfie za każdym razem, gdy wykryje zmianę hasła na danej stronie."
   },
   "notificationChangeDesc": {
-    "message": "Czy chcesz zaktualizować to hasło w Bitwarden?"
+    "message": "Czy chcesz zaktualizować to hasło w Bytegarden?"
   },
   "notificationChangeSave": {
     "message": "Tak, zaktualizuj teraz"
@@ -613,7 +613,7 @@
     "message": "Udostępnij swój sejf"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden pozwala na udostępnianie zawartości skarbca innym osobom, przy użyciu konta organizacji. Czy chcesz odwiedź witrynę bytegarden.com, aby dowiedzieć się więcej?"
+    "message": "Bytegarden pozwala na udostępnianie zawartości skarbca innym osobom, przy użyciu konta organizacji. Czy chcesz odwiedź witrynę bytegarden.com, aby dowiedzieć się więcej?"
   },
   "shareItem": {
     "message": "Udostępnij element"
@@ -721,7 +721,7 @@
     "message": "Posiadasz konto Premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Dziękujemy za wspieranie Bitwarden."
+    "message": "Dziękujemy za wspieranie Bytegarden."
   },
   "premiumPrice": {
     "message": "Wszystko to jedynie za $PRICE$ /rok!",
@@ -838,7 +838,7 @@
     "message": "Samodzielnie hostowane środowisko"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Podaj podstawowy adres URL hostowanej przez Ciebie instalacji Bitwarden."
+    "message": "Podaj podstawowy adres URL hostowanej przez Ciebie instalacji Bytegarden."
   },
   "customEnvironment": {
     "message": "Niestandardowe środowisko"
@@ -1203,7 +1203,7 @@
     "message": "Słabe hasło główne"
   },
   "weakMasterPasswordDesc": {
-    "message": "Wybrane przez Ciebie hasło główne jest słabe. Powinieneś użyć silniejszego hasła (lub frazy), aby właściwie chronić swoje konto Bitwarden. Czy na pewno chcesz użyć tego hasła głównego?"
+    "message": "Wybrane przez Ciebie hasło główne jest słabe. Powinieneś użyć silniejszego hasła (lub frazy), aby właściwie chronić swoje konto Bytegarden. Czy na pewno chcesz użyć tego hasła głównego?"
   },
   "pin": {
     "message": "PIN",

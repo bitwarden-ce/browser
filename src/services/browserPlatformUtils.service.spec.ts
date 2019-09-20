@@ -1,6 +1,6 @@
 import BrowserPlatformUtilsService from './browserPlatformUtils.service';
 
-import { DeviceType } from 'jslib/enums';
+import { DeviceType } from '@bytegarden/jslib/src/enums';
 
 describe('Browser Utils Service', () => {
     describe('getBrowser', () => {

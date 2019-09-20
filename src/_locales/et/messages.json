@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "Bytegarden"
   },
   "extName": {
-    "message": "Bitwarden - Tasuta paroolihaldur",
+    "message": "Bytegarden - Tasuta paroolihaldur",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Loo oma kontodele tugevaid ja unikaalseid paroole."
   },
   "bitWebVault": {
-    "message": "Bitwardeni Veebihoidla"
+    "message": "Bytegardeni Veebihoidla"
   },
   "importItems": {
     "message": "Impordi andmed"
@@ -520,7 +520,7 @@
     "message": "Keela \"Lisa konto andmed\" märguanne"
   },
   "addLoginNotificationDesc": {
-    "message": "\"Lisa konto andmed\" märguanne ilmub pärast esimest sisselogimist ning võimaldab Sul kontoandmeid automaatselt Bitwardenisse lisada."
+    "message": "\"Lisa konto andmed\" märguanne ilmub pärast esimest sisselogimist ning võimaldab Sul kontoandmeid automaatselt Bytegardenisse lisada."
   },
   "dontShowCardsCurrentTab": {
     "message": "Ära kuva \"Kaart\" vaates krediitkaardi andmeid"
@@ -555,10 +555,10 @@
     "message": "Keela Muudetud parooli teavitus"
   },
   "disableChangedPasswordNotificationDesc": {
-    "message": "Kui mistahes veebilehel on toimunud parooli vahetamine, annab \"Muudetud parooli teavitus\" sulle märku, et vahetaksid selle ära ka Bitwardeni paroolihoidlas."
+    "message": "Kui mistahes veebilehel on toimunud parooli vahetamine, annab \"Muudetud parooli teavitus\" sulle märku, et vahetaksid selle ära ka Bytegardeni paroolihoidlas."
   },
   "notificationChangeDesc": {
-    "message": "Soovid seda parooli ka Bitwardenis uuendada?"
+    "message": "Soovid seda parooli ka Bytegardenis uuendada?"
   },
   "notificationChangeSave": {
     "message": "Jah, uuenda"
@@ -613,7 +613,7 @@
     "message": "Jaga oma hoidlat"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwardeniga saad oma hoidlat teistega jagada, kasutades selleks organisatsiooni kontot. Kas soovid selle kohta lisateavet ja avada bytegarden.com veebilehe?"
+    "message": "Bytegardeniga saad oma hoidlat teistega jagada, kasutades selleks organisatsiooni kontot. Kas soovid selle kohta lisateavet ja avada bytegarden.com veebilehe?"
   },
   "shareItem": {
     "message": "Jaga kirjet"
@@ -715,13 +715,13 @@
     "message": "Osta Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "Bitwardeni premium versiooni saab osta bytegarden.com veebihoidlas. Avan veebihoidla?"
+    "message": "Bytegardeni premium versiooni saab osta bytegarden.com veebihoidlas. Avan veebihoidla?"
   },
   "premiumCurrentMember": {
     "message": "Oled premium kasutaja!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Täname, et toetad Bitwardenit."
+    "message": "Täname, et toetad Bytegardenit."
   },
   "premiumPrice": {
     "message": "Kõik see ainult %price% aastas!",
@@ -838,7 +838,7 @@
     "message": "Self-hosted Environment"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specify the base URL of your on-premise hosted Bitwarden installation."
+    "message": "Specify the base URL of your on-premise hosted Bytegarden installation."
   },
   "customEnvironment": {
     "message": "Kohandatud keskkond"
@@ -1203,7 +1203,7 @@
     "message": "Nõrk ülemparool"
   },
   "weakMasterPasswordDesc": {
-    "message": "Valitud ülemparool on nõrk. Oma Bitwardeni konto paremaks kaitsmiseks peaksid kasutama tugevat parooli. Oled kindel, et soovid seda parooli ülemparoolina kasutada?"
+    "message": "Valitud ülemparool on nõrk. Oma Bytegardeni konto paremaks kaitsmiseks peaksid kasutama tugevat parooli. Oled kindel, et soovid seda parooli ülemparoolina kasutada?"
   },
   "pin": {
     "message": "PIN",
@@ -1213,7 +1213,7 @@
     "message": "Ava PIN-iga"
   },
   "setYourPinCode": {
-    "message": "Määra Bitwardeni lahtilukustamiseks PIN kood. Rakendusest täielikult välja logides nullitakse ka PIN koodi seaded."
+    "message": "Määra Bytegardeni lahtilukustamiseks PIN kood. Rakendusest täielikult välja logides nullitakse ka PIN koodi seaded."
   },
   "pinRequired": {
     "message": "Nõutakse PIN koodi."

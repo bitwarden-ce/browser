@@ -1,7 +1,7 @@
 import {
     CipherType,
     FieldType,
-} from 'jslib/enums';
+} from '@bytegarden/jslib/src/enums';
 
 import AutofillField from '../models/autofillField';
 import AutofillPageDetails from '../models/autofillPageDetails';
@@ -15,10 +15,10 @@ import {
     CipherService,
     TotpService,
     UserService,
-} from 'jslib/abstractions';
+} from '@bytegarden/jslib/src/abstractions';
 
-import { EventService } from 'jslib/abstractions/event.service';
-import { EventType } from 'jslib/enums/eventType';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { EventType } from '@bytegarden/jslib/src/enums/eventType';
 
 const CardAttributes: string[] = ['autoCompleteType', 'data-stripe', 'htmlName', 'htmlID', 'label-tag',
     'placeholder', 'label-left', 'label-top', 'data-recurly'];

@@ -15,24 +15,24 @@ import {
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { CollectionService } from 'jslib/abstractions/collection.service';
-import { FolderService } from 'jslib/abstractions/folder.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { SearchService } from 'jslib/abstractions/search.service';
-import { StateService } from 'jslib/abstractions/state.service';
+import { CollectionService } from '@bytegarden/jslib/src/abstractions/collection.service';
+import { FolderService } from '@bytegarden/jslib/src/abstractions/folder.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { SearchService } from '@bytegarden/jslib/src/abstractions/search.service';
+import { StateService } from '@bytegarden/jslib/src/abstractions/state.service';
 
-import { CipherType } from 'jslib/enums/cipherType';
+import { CipherType } from '@bytegarden/jslib/src/enums/cipherType';
 
-import { CipherView } from 'jslib/models/view/cipherView';
-import { CollectionView } from 'jslib/models/view/collectionView';
-import { FolderView } from 'jslib/models/view/folderView';
+import { CipherView } from '@bytegarden/jslib/src/models/view/cipherView';
+import { CollectionView } from '@bytegarden/jslib/src/models/view/collectionView';
+import { FolderView } from '@bytegarden/jslib/src/models/view/folderView';
 
-import { TreeNode } from 'jslib/models/domain/treeNode';
+import { TreeNode } from '@bytegarden/jslib/src/models/domain/treeNode';
 
-import { BroadcasterService } from 'jslib/angular/services/broadcaster.service';
+import { BroadcasterService } from '@bytegarden/jslib/src/angular/services/broadcaster.service';
 
-import { CiphersComponent as BaseCiphersComponent } from 'jslib/angular/components/ciphers.component';
+import { CiphersComponent as BaseCiphersComponent } from '@bytegarden/jslib/src/angular/components/ciphers.component';
 
 import { PopupUtilsService } from '../services/popup-utils.service';
 

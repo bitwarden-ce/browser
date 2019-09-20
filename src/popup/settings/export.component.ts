@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { CryptoService } from 'jslib/abstractions/crypto.service';
-import { EventService } from 'jslib/abstractions/event.service';
-import { ExportService } from 'jslib/abstractions/export.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { CryptoService } from '@bytegarden/jslib/src/abstractions/crypto.service';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { ExportService } from '@bytegarden/jslib/src/abstractions/export.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
-import { ExportComponent as BaseExportComponent } from 'jslib/angular/components/export.component';
+import { ExportComponent as BaseExportComponent } from '@bytegarden/jslib/src/angular/components/export.component';
 
 @Component({
     selector: 'app-export',

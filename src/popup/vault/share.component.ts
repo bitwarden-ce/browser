@@ -5,13 +5,13 @@ import {
     Router,
 } from '@angular/router';
 
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { CollectionService } from 'jslib/abstractions/collection.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { CollectionService } from '@bytegarden/jslib/src/abstractions/collection.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
-import { ShareComponent as BaseShareComponent } from 'jslib/angular/components/share.component';
+import { ShareComponent as BaseShareComponent } from '@bytegarden/jslib/src/angular/components/share.component';
 
 @Component({
     selector: 'app-vault-share',

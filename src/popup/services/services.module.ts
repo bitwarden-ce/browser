@@ -8,47 +8,47 @@ import { ToasterModule } from 'angular2-toaster';
 
 import { LaunchGuardService } from './launch-guard.service';
 
-import { AuthGuardService } from 'jslib/angular/services/auth-guard.service';
-import { BroadcasterService } from 'jslib/angular/services/broadcaster.service';
-import { ValidationService } from 'jslib/angular/services/validation.service';
+import { AuthGuardService } from '@bytegarden/jslib/src/angular/services/auth-guard.service';
+import { BroadcasterService } from '@bytegarden/jslib/src/angular/services/broadcaster.service';
+import { ValidationService } from '@bytegarden/jslib/src/angular/services/validation.service';
 
 import { BrowserApi } from '../../browser/browserApi';
 
-import { ApiService } from 'jslib/abstractions/api.service';
-import { AppIdService } from 'jslib/abstractions/appId.service';
-import { AuditService } from 'jslib/abstractions/audit.service';
-import { AuthService as AuthServiceAbstraction } from 'jslib/abstractions/auth.service';
-import { CipherService } from 'jslib/abstractions/cipher.service';
-import { CollectionService } from 'jslib/abstractions/collection.service';
-import { CryptoService } from 'jslib/abstractions/crypto.service';
-import { EnvironmentService } from 'jslib/abstractions/environment.service';
-import { EventService } from 'jslib/abstractions/event.service';
-import { ExportService } from 'jslib/abstractions/export.service';
-import { FolderService } from 'jslib/abstractions/folder.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { LockService } from 'jslib/abstractions/lock.service';
-import { MessagingService } from 'jslib/abstractions/messaging.service';
-import { NotificationsService } from 'jslib/abstractions/notifications.service';
-import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { SearchService as SearchServiceAbstraction } from 'jslib/abstractions/search.service';
-import { SettingsService } from 'jslib/abstractions/settings.service';
-import { StateService as StateServiceAbstraction } from 'jslib/abstractions/state.service';
-import { StorageService } from 'jslib/abstractions/storage.service';
-import { SyncService } from 'jslib/abstractions/sync.service';
-import { TokenService } from 'jslib/abstractions/token.service';
-import { TotpService } from 'jslib/abstractions/totp.service';
-import { UserService } from 'jslib/abstractions/user.service';
+import { ApiService } from '@bytegarden/jslib/src/abstractions/api.service';
+import { AppIdService } from '@bytegarden/jslib/src/abstractions/appId.service';
+import { AuditService } from '@bytegarden/jslib/src/abstractions/audit.service';
+import { AuthService as AuthServiceAbstraction } from '@bytegarden/jslib/src/abstractions/auth.service';
+import { CipherService } from '@bytegarden/jslib/src/abstractions/cipher.service';
+import { CollectionService } from '@bytegarden/jslib/src/abstractions/collection.service';
+import { CryptoService } from '@bytegarden/jslib/src/abstractions/crypto.service';
+import { EnvironmentService } from '@bytegarden/jslib/src/abstractions/environment.service';
+import { EventService } from '@bytegarden/jslib/src/abstractions/event.service';
+import { ExportService } from '@bytegarden/jslib/src/abstractions/export.service';
+import { FolderService } from '@bytegarden/jslib/src/abstractions/folder.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { MessagingService } from '@bytegarden/jslib/src/abstractions/messaging.service';
+import { NotificationsService } from '@bytegarden/jslib/src/abstractions/notifications.service';
+import { PasswordGenerationService } from '@bytegarden/jslib/src/abstractions/passwordGeneration.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { SearchService as SearchServiceAbstraction } from '@bytegarden/jslib/src/abstractions/search.service';
+import { SettingsService } from '@bytegarden/jslib/src/abstractions/settings.service';
+import { StateService as StateServiceAbstraction } from '@bytegarden/jslib/src/abstractions/state.service';
+import { StorageService } from '@bytegarden/jslib/src/abstractions/storage.service';
+import { SyncService } from '@bytegarden/jslib/src/abstractions/sync.service';
+import { TokenService } from '@bytegarden/jslib/src/abstractions/token.service';
+import { TotpService } from '@bytegarden/jslib/src/abstractions/totp.service';
+import { UserService } from '@bytegarden/jslib/src/abstractions/user.service';
 
 import { AutofillService } from '../../services/abstractions/autofill.service';
 import BrowserMessagingService from '../../services/browserMessaging.service';
 
-import { AuthService } from 'jslib/services/auth.service';
-import { ConstantsService } from 'jslib/services/constants.service';
-import { SearchService } from 'jslib/services/search.service';
-import { StateService } from 'jslib/services/state.service';
+import { AuthService } from '@bytegarden/jslib/src/services/auth.service';
+import { ConstantsService } from '@bytegarden/jslib/src/services/constants.service';
+import { SearchService } from '@bytegarden/jslib/src/services/search.service';
+import { StateService } from '@bytegarden/jslib/src/services/state.service';
 
-import { Analytics } from 'jslib/misc/analytics';
+import { Analytics } from '@bytegarden/jslib/src/misc/analytics';
 
 import { PopupSearchService } from './popup-search.service';
 import { PopupUtilsService } from './popup-utils.service';

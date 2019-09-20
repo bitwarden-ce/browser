@@ -26,16 +26,16 @@ import {
 
 import { Angulartics2 } from 'angulartics2';
 
-import { BroadcasterService } from 'jslib/angular/services/broadcaster.service';
+import { BroadcasterService } from '@bytegarden/jslib/src/angular/services/broadcaster.service';
 
-import { AuthService } from 'jslib/abstractions/auth.service';
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { MessagingService } from 'jslib/abstractions/messaging.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
-import { StateService } from 'jslib/abstractions/state.service';
-import { StorageService } from 'jslib/abstractions/storage.service';
+import { AuthService } from '@bytegarden/jslib/src/abstractions/auth.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { MessagingService } from '@bytegarden/jslib/src/abstractions/messaging.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
+import { StateService } from '@bytegarden/jslib/src/abstractions/state.service';
+import { StorageService } from '@bytegarden/jslib/src/abstractions/storage.service';
 
-import { ConstantsService } from 'jslib/services/constants.service';
+import { ConstantsService } from '@bytegarden/jslib/src/services/constants.service';
 
 import { routerTransition } from './app-routing.animations';
 

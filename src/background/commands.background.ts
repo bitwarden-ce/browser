@@ -2,11 +2,11 @@ import { BrowserApi } from '../browser/browserApi';
 
 import MainBackground from './main.background';
 
-import { Analytics } from 'jslib/misc';
+import { Analytics } from '@bytegarden/jslib/src/misc';
 
-import { LockService } from 'jslib/abstractions/lock.service';
-import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { LockService } from '@bytegarden/jslib/src/abstractions/lock.service';
+import { PasswordGenerationService } from '@bytegarden/jslib/src/abstractions/passwordGeneration.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 export default class CommandsBackground {
     private isSafari: boolean;

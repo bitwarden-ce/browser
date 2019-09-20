@@ -1,13 +1,13 @@
 import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 
-import { I18nService } from 'jslib/abstractions/i18n.service';
-import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
-import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { I18nService } from '@bytegarden/jslib/src/abstractions/i18n.service';
+import { PasswordGenerationService } from '@bytegarden/jslib/src/abstractions/passwordGeneration.service';
+import { PlatformUtilsService } from '@bytegarden/jslib/src/abstractions/platformUtils.service';
 
 import {
     PasswordGeneratorHistoryComponent as BasePasswordGeneratorHistoryComponent,
-} from 'jslib/angular/components/password-generator-history.component';
+} from '@bytegarden/jslib/src/angular/components/password-generator-history.component';
 
 @Component({
     selector: 'app-password-generator-history',
